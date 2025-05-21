@@ -185,20 +185,23 @@ class DrawingWidget(QtWidgets.QWidget):
         self.update()  # Trigger repaint
 
     def paintEvent(self, event):
-        super().paintEvent(event)
+        super().paintEvent(event)  # Fills background (optional, remove if unwanted)
         painter = QtGui.QPainter(self)
         painter.setRenderHint(QtGui.QPainter.Antialiasing)
-
-        # Draw red rectangle (animated)
-        painter.setPen(QtGui.QPen(QtCore.Qt.red, 3))
+    
+        # Set up pen (outline) and brush (fill)
+        pen = QtGui.QPen()
+        pen.setColor(QtCore.Qt.GlobalColor.black)  # Outline color
+        pen.setWidth(2)  # Thicker lines reduce "white halo"
+        painter.setPen(pen)
+    
+        my_brush = QtGui.QBrush()
+        my_brush.setColor(QtCore.Qt.GlobalColor.red)  # Fix: Use QtCore, not QtGui
+        my_brush.setStyle(QtCore.Qt.BrushStyle.SolidPattern)
+        painter.setBrush(my_brush)
+    
+        # Draw shapes
         painter.drawRect(50 + self.rect_offset, 50, 100, 80)
-
-        # Static shapes
-        painter.setPen(QtGui.QPen(QtCore.Qt.blue, 2))
         painter.drawLine(200, 50, 300, 150)
-        
-        painter.setPen(QtGui.QPen(QtCore.Qt.green, 4))
-        painter.drawEllipse(100, 200, 80, 80)  # Circle
-        
-        painter.setPen(QtGui.QPen(QtCore.Qt.black, 1))
+        painter.drawEllipse(100, 200, 80, 80)
         painter.drawText(10, 20, "Drawing Primitives:")
