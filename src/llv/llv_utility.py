@@ -128,8 +128,9 @@ def dump_line(addr: int,
 
     # 3)  ASCII column -----------------------------------------------------
     ascii_ = "".join(chr(b) if 32 <= b <= 126 else "." for b in chunk)
-
-    return f"{addr_str}: {hex_bytes} {ascii_}\n"
+    ascii_+="\n"
+    returnstring = f"{addr_str}: {hex_bytes} {ascii_}"
+    return (returnstring, ascii_)
 
 
 
