@@ -18,6 +18,21 @@
             "program": "${workspaceFolder}/src/aquabuddy/main.py",
             "console": "integratedTerminal",
             "args": []
-          }
+        },
+        {
+            "name": "Run FileDump Gui",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/llv/filedumpgui.py",
+            "console": "integratedTerminal",
+            "args": []
+        },
+        {
+            "name": "Debug FileDump Gui",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/llv/filedumpgui.py",
+            "console": "integratedTerminal"
+        },
     ]
 }

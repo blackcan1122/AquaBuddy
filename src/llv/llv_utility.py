@@ -65,7 +65,7 @@ def bin_to_decimal(bin_num: int) -> int:
 def dec_to_hex(n, width=None):
     if n < 0:
         raise ValueError("n must be non-negative")
-    s = format(n, "X")          # built-in upper-case hex without 0x
+    s = format(n, "X")
     if width:
         s = s.zfill(width)
     return s
@@ -103,20 +103,34 @@ def dump_hex(buffer, offset):
     print(f"{offset}: {byte_str}")
     return
 
-def dump_line(addr: int, chunk: bytes, bytesperline : int) -> None:
-    """Print one formatted hex-dump line."""
-    # use your helper to format the 32-bit address
-    addr_str = dec_to_hex(addr, 8)
+def dump_line(addr: int,
+              chunk: bytes,
+              bytes_per_line: int,
+              group_size: int = 8) -> str:
+    """Return one formatted hex-dump line."""
 
-    # column of hex bytes
-    hex_bytes = " ".join(dec_to_hex(b, 2) for b in chunk)
-    if len(chunk) > 8:                       # extra gap after 8 bytes
-        hex_bytes = hex_bytes[:24] + "  " + hex_bytes[24:]
+    addr_str = f"{addr:08X}"
 
-    # ASCII column (printables 32-126, else dot)
+    # 1)  build the groups -------------------------------------------------
+    groups = [
+        " ".join(f"{b:02X}" for b in chunk[i:i + group_size])
+        for i in range(0, len(chunk), group_size)
+    ]
+    hex_bytes = "  ".join(groups)          # double space between groups
+
+    # 2)  pad so the ASCII column always starts at the same x-pos ----------
+    groups_per_line = (bytes_per_line + group_size - 1) // group_size
+    hex_width = (
+        bytes_per_line * 3 - 1             # "XX " per byte (minus last space)
+        + (groups_per_line - 1) * 2        # the extra gaps we just inserted
+    )
+    hex_bytes = f"{hex_bytes:<{hex_width}}"
+
+    # 3)  ASCII column -----------------------------------------------------
     ascii_ = "".join(chr(b) if 32 <= b <= 126 else "." for b in chunk)
 
-    print(f"{addr_str}: {hex_bytes:<49} {ascii_}")
+    return f"{addr_str}: {hex_bytes} {ascii_}\n"
+
 
 
 def dump_buffer(buf: bytes | bytearray | memoryview, base: int = 0) -> None:

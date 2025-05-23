@@ -1,6 +1,6 @@
 from pathlib import Path
 from typing import BinaryIO
-from llv_utility import dump_line   # re-use exactly the same renderer
+from llv_utility import dump_line
 
 
 def dump_file(path: str | Path,
@@ -11,7 +11,7 @@ def dump_file(path: str | Path,
 
     addr = base if base is not None else skip
     remaining = count
-
+    returnstring =""
     with Path(path).open("rb") as f:
         f.seek(skip)
         while True:
@@ -21,12 +21,13 @@ def dump_file(path: str | Path,
                                                                remaining)
             chunk = f.read(need)
             if not chunk:
-                break            # EOF
-
-            dump_line(addr, chunk, bytesperline)
+                break #EOF
+            
+            returnstring += (dump_line(addr, chunk, bytesperline))
             addr += len(chunk)
             if remaining is not None:
                 remaining -= len(chunk)
+    return returnstring
 
 
 if __name__ == "__main__":
@@ -47,7 +48,7 @@ if __name__ == "__main__":
                         help="max bytes to dump")
     parser.add_argument("-b", "--base",  type=lambda x: int(x, 0),
                         help="first address shown (default = skip)")
-    parser.add_argument("-bs", "--bytesize", type=int,
+    parser.add_argument("-bs", "--bytesize", type=int, default=16,
                         help="Define size of bytes per line")
 
     args = parser.parse_args(sys.argv[1:])
