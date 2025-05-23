@@ -68,7 +68,7 @@ class LoaderThread(QtCore.QThread):
 
 
 class FileDump(QtWidgets.QWidget):
-    """A simple hex‑viewer / editor widget with search & in‑place patching."""
+    """Hex‑viewer / editor with search *and* address‑jump (e.g. “$0300”)."""
 
     bytes_per_line = 16  # visual layout as well as search math
 
@@ -100,16 +100,16 @@ class FileDump(QtWidgets.QWidget):
         self.open_btn.clicked.connect(self._open_file)
         self.save_btn.clicked.connect(self._save_changes)
 
-        # search ------------------------------------------------------------
+        # search / jump -----------------------------------------------------
         search_bar = QHBoxLayout()
         self.search_edit = QLineEdit()
-        self.search_edit.setPlaceholderText("Search hex (e.g. DE AD BE EF) or ASCII text…")
-        self.search_btn = QPushButton("Search")
+        self.search_edit.setPlaceholderText("Hex / ASCII search — or jump to $ADDR…")
+        self.search_btn = QPushButton("Go")
         search_bar.addWidget(self.search_edit, 1)
         search_bar.addWidget(self.search_btn)
         root.addLayout(search_bar)
 
-        self.search_btn.clicked.connect(self._do_search)
+        self.search_btn.clicked.connect(self._do_search_or_jump)
 
         # progress ----------------------------------------------------------
         self.progress = QProgressBar()
@@ -162,13 +162,23 @@ class FileDump(QtWidgets.QWidget):
         self._modified = False
         self.save_btn.setEnabled(False)
 
-    # ------------------------------------------------------------------ Search
-    def _do_search(self) -> None:
+    # ------------------------------------------------------------------ Search / Jump
+    def _do_search_or_jump(self) -> None:
         query = self.search_edit.text().strip()
         if not query:
             return
 
-        # detect & convert --------------------------------------------------
+        # 1) Address jump syntax: $0300   0300   0x0300
+        m = re.fullmatch(r"(?:0x|\$)?([0-9A-Fa-f]{1,8})", query)
+        if m:
+            addr = int(m.group(1), 16)
+            if addr >= len(self._raw):
+                QMessageBox.warning(self, "Jump", f"Address 0x{addr:08X} exceeds file size.")
+            else:
+                self._goto_offset(addr)
+            return  # handled – done
+
+        # 2) Hex / ASCII search -------------------------------------------
         hex_only = all(ch in "0123456789abcdefABCDEF " for ch in query)
         try:
             if hex_only and len(query.replace(" ", "")) % 2 == 0:
@@ -179,7 +189,6 @@ class FileDump(QtWidgets.QWidget):
             QMessageBox.warning(self, "Search", "Malformed hex input.")
             return
 
-        # actual search -----------------------------------------------------
         idx = self._raw.find(pattern)
         if idx == -1:
             QMessageBox.information(self, "Search", "Pattern not found.")
@@ -194,7 +203,7 @@ class FileDump(QtWidgets.QWidget):
         cursor.movePosition(QTextCursor.Start)
         cursor.movePosition(QTextCursor.Down, QTextCursor.MoveAnchor, line)
         self.view.setTextCursor(cursor)
-        self.status.setText(f"Jumped to 0x{offset:08X}")
+        self.status.setText(f"Offset: 0x{offset:08X} (line {line})")
 
     def _update_status_offset(self) -> None:
         off = self._offset_for_cursor(self.view.textCursor())
@@ -205,16 +214,14 @@ class FileDump(QtWidgets.QWidget):
         """Very lightweight char‑to‑offset mapping based on fixed‑width layout."""
         line_idx = cur.blockNumber()
         col = cur.positionInBlock()
-        if col < 10:  # within the address column
+        if col < 10:  # inside the address column
             return None
-        rel = col - 10
-        byte_idx = rel // 3  # 'XX ' pattern → 3 chars per byte (byte + space)
+        byte_idx = (col - 10) // 3  # 'XX ' pattern → 3 chars per byte
         off = line_idx * self.bytes_per_line + byte_idx
         return off if off < len(self._raw) else None
 
     # ------------------------------------------------------------------ Save logic
     def _mark_modified(self) -> None:
-        """Flag document as dirty *only* for user edits (view must be writable)."""
         if not self.view.isReadOnly():
             self._modified = True
             self.save_btn.setEnabled(True)
@@ -251,44 +258,29 @@ class FileDump(QtWidgets.QWidget):
         self.save_btn.setEnabled(False)
         self.status.setText("Saved successfully.")
 
-        # ------------------------------------------------------------------ Helpers
+    # ------------------------------------------------------------------ Helpers
     def _parse_hex_view(self, text: str) -> bytearray | None:
-        """Translate the edited dump back into raw bytes.
-
-        Strategy
-        --------
-        * For each line, collect **up to** ``bytes_per_line`` two‑digit hex tokens
-          immediately after the address column. The rest of the line (ASCII
-          preview/comment) is ignored.
-        * Abort and return ``None`` if a malformed token count would risk data
-          corruption.
-        """
+        """Translate the edited dump back into raw bytes (see previous revision for details)."""
         out = bytearray()
         hex_byte = re.compile(r"^[0-9A-Fa-f]{2}$")
 
         try:
             for ln, line in enumerate(text.splitlines(), start=1):
                 if ":" not in line:
-                    # likely blank or decorative line
                     continue
-
-                # Drop the address part
                 body = line.split(":", 1)[1].lstrip()
-
                 tokens: list[str] = []
                 for tok in body.split():
                     if len(tokens) == self.bytes_per_line:
-                        break  # reached ASCII column
+                        break
                     if hex_byte.fullmatch(tok):
                         tokens.append(tok)
                     else:
-                        break  # first non‑hex marks ASCII column
-
+                        break
                 if len(tokens) > self.bytes_per_line:
                     raise ValueError(
                         f"Line {ln}: too many hex bytes ({len(tokens)}). Expected <= {self.bytes_per_line}."
                     )
-
                 out.extend(int(t, 16) for t in tokens)
             return out
         except Exception as err:
