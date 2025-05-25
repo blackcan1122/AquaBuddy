@@ -15,13 +15,14 @@ from PySide6.QtWidgets import (
 from PySide6.QtGui import QFontDatabase, QTextCursor
 
 from llv_utility import dump_line
+from llv_utility import hex_to_dec, dec_to_hex
 
 
 class LoaderThread(QtCore.QThread):
     """Background loader that streams the file incrementally so the UI never blocks."""
 
     progress = QtCore.Signal(int)  # 0–100
-    finished = QtCore.Signal(str, bytearray)  # hexdump string, raw bytes
+    finished = QtCore.Signal(str, bytearray, str)  # hexdump string, raw bytes
 
     def __init__(self, path: str, bytes_per_line: int = 16, chunk_size: int = 256 * 1024):
         super().__init__()
@@ -36,6 +37,7 @@ class LoaderThread(QtCore.QThread):
 
         data = bytearray()
         hexdump_parts: list[str] = []
+        ascii_parts: list[str] = []
         addr = 0
 
         with open(self._path, "rb") as fp:
@@ -50,7 +52,8 @@ class LoaderThread(QtCore.QThread):
                 # build hexdump lines – we do it here so the GUI thread stays lean
                 for i in range(0, len(chunk), self._bpl):
                     sub = chunk[i : i + self._bpl]
-                    line, _ = dump_line(addr, sub, self._bpl)
+                    line, a = dump_line(addr, sub, self._bpl)
+                    ascii_parts.append(a)
                     hexdump_parts.append(line)
                     addr += len(sub)
 
@@ -63,8 +66,10 @@ class LoaderThread(QtCore.QThread):
         hexdump = "".join(hexdump_parts)
         if not hexdump.endswith("\n"):
             hexdump += "\n"
+        
+        aciidump = "".join(ascii_parts)
 
-        self.finished.emit(hexdump, data)
+        self.finished.emit(hexdump, data, aciidump)
 
 
 class FileDump(QtWidgets.QWidget):
@@ -80,25 +85,35 @@ class FileDump(QtWidgets.QWidget):
         self._raw: bytearray = bytearray()
         self._path: str | None = None
         self._modified: bool = False
-
+        self.ascii_text : str | None = None
+        self.pc_addr : str | None = "Empty not set"
         # UI ---------------------------------------------------------------
-        self._build_ui()
+        self.tabs = QtWidgets.QTabWidget()
+        self.tabs.addTab(self._build_ui(), "Hex View")
+        self.tabs.addTab(self.create_text_example(), "Hex View")
+        self.layout = QVBoxLayout(self)
+        self.layout.addWidget(self.tabs)
+        #self._build_ui()
 
     # ------------------------------------------------------------------ UI helpers
-    def _build_ui(self) -> None:
-        root = QVBoxLayout(self)
+    def _build_ui(self) -> QtWidgets.QWidget:
+        widget = QtWidgets.QWidget()
+        root = QVBoxLayout()
 
         # file open / save --------------------------------------------------
         file_bar = QHBoxLayout()
         self.open_btn = QPushButton("Open…")
         self.save_btn = QPushButton("Save")
+        self.CopyAscii_btn = QPushButton("Copy ASCII")
         self.save_btn.setEnabled(False)
         file_bar.addWidget(self.open_btn)
         file_bar.addWidget(self.save_btn)
+        file_bar.addWidget(self.CopyAscii_btn)
         root.addLayout(file_bar)
 
         self.open_btn.clicked.connect(self._open_file)
         self.save_btn.clicked.connect(self._save_changes)
+        self.CopyAscii_btn.clicked.connect(lambda: QApplication.clipboard().setText(self.ascii_text or ""))
 
         # search / jump -----------------------------------------------------
         search_bar = QHBoxLayout()
@@ -130,6 +145,31 @@ class FileDump(QtWidgets.QWidget):
         # status ------------------------------------------------------------
         self.status = QLabel("Ready")
         root.addWidget(self.status)
+        widget.setLayout(root)
+        return widget
+    
+    def create_text_example(self):
+        # Text Input Tab
+        widget = QtWidgets.QWidget()
+        layout = QVBoxLayout()
+
+        # Line edit
+        self.line_edit = QLineEdit()
+        self.line_edit.setPlaceholderText("Full loROM address (e.g. 8486D0) or bank (e.g. 84)")
+        layout.addWidget(self.line_edit)
+        
+        # Button to open file dialog
+        self.open_button = QPushButton("Convert LoROM to PC")
+        self.open_button.clicked.connect(lambda _: self._on_lorom_btn(self.line_edit.text()))
+        layout.addWidget(self.open_button)
+
+        self.lorom_text_box = QLabel()
+        self.lorom_text_box.setText(self.pc_addr)
+        self.lorom_text_box.setTextInteractionFlags(QtCore.Qt.TextSelectableByMouse)
+        layout.addWidget(self.lorom_text_box)
+
+        widget.setLayout(layout)
+        return widget
 
     # ------------------------------------------------------------------ File handling
     def _open_file(self) -> None:
@@ -150,11 +190,12 @@ class FileDump(QtWidgets.QWidget):
         self._loader.finished.connect(self._loader_done)
         self._loader.start()
 
-    def _loader_done(self, hexdump: str, data: bytearray) -> None:
+    def _loader_done(self, hexdump: str, data: bytearray, ascii_tex: str) -> None:
         # populate UI
         self._raw = data
         self.view.setPlainText(hexdump)
         self.view.setReadOnly(False)
+        self.ascii_text = ascii_tex
 
         # housekeeping UI
         self.progress.setVisible(False)
@@ -167,16 +208,16 @@ class FileDump(QtWidgets.QWidget):
         query = self.search_edit.text().strip()
         if not query:
             return
-
-        # 1) Address jump syntax: $0300   0300   0x0300
-        m = re.fullmatch(r"(?:0x|\$)?([0-9A-Fa-f]{1,8})", query)
-        if m:
-            addr = int(m.group(1), 16)
-            if addr >= len(self._raw):
-                QMessageBox.warning(self, "Jump", f"Address 0x{addr:08X} exceeds file size.")
-            else:
-                self._goto_offset(addr)
-            return  # handled – done
+        if query.find("$") or query.find("0x"):
+            # 1) Address jump syntax: $0300   0300   0x0300
+            m = re.fullmatch(r"(?:0x|\$)?([0-9A-Fa-f]{1,8})", query)
+            if m:
+                addr = int(m.group(1), 16)
+                if addr >= len(self._raw):
+                    QMessageBox.warning(self, "Jump", f"Address 0x{addr:08X} exceeds file size.")
+                else:
+                    self._goto_offset(addr)
+                return  # handled – done
 
         # 2) Hex / ASCII search -------------------------------------------
         hex_only = all(ch in "0123456789abcdefABCDEF " for ch in query)
@@ -203,6 +244,7 @@ class FileDump(QtWidgets.QWidget):
         cursor.movePosition(QTextCursor.Start)
         cursor.movePosition(QTextCursor.Down, QTextCursor.MoveAnchor, line)
         self.view.setTextCursor(cursor)
+        self.view.setFocus()
         self.status.setText(f"Offset: 0x{offset:08X} (line {line})")
 
     def _update_status_offset(self) -> None:
@@ -286,6 +328,45 @@ class FileDump(QtWidgets.QWidget):
         except Exception as err:
             print("parse error:", err, file=sys.stderr)
             return None
+        
+    def _on_lorom_btn(self, input: str):
+        """ decide whether to convert a LoROM address or a bank number """
+        # Match either a bank (2 hex digits) or full LoROM address (6 hex digits)
+        # Allows optional '0x', '$' or no prefix
+        bank_pattern = r'^(?:0x|\$)?([0-9A-Fa-f]{2})$'
+        lorom_pattern = r'^(?:0x|\$)?([0-9A-Fa-f]{6})$'
+        
+        if re.match(bank_pattern, input):
+            self.pc_addr = self._bank_start(input)
+            self.lorom_text_box.setText(self.pc_addr)
+            return
+        elif re.match(lorom_pattern, input):
+            self.pc_addr = self._lorom_to_pc(input)
+            self.lorom_text_box.setText(self.pc_addr)
+            return
+        else:
+            print("Invalid input format")
+    
+    def _lorom_to_pc(self, addr_hex: str, has_header: bool = False) -> str:
+        """
+        Convert a 24-bit LoROM address (e.g. '0x8486D0' or '8486D0')
+        to a file offset.  Set has_header=True if the ROM still
+        contains the 512-byte copier header.
+        """
+        addr = int(addr_hex, 16)
+
+        pc = ((addr & 0x7F0000) >> 1) | (addr & 0x7FFF)
+        if has_header:
+            pc += 0x200
+        return hex(pc)
+    
+    def _bank_start(self, bank_hex: str, has_header: bool = False) -> str:
+        print(type(bank_hex))
+        bank = int(bank_hex, 16) & 0x7F   # drop the high bit
+        pc = bank * 0x8000
+        if has_header:
+            pc += 0x200
+        return hex(pc)
 
 
 # ---------------------------------------------------------------------
