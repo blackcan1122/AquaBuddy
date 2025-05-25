@@ -364,9 +364,10 @@ class FileDump(QtWidgets.QWidget):
         print(type(bank_hex))
         bank = int(bank_hex, 16) & 0x7F   # drop the high bit
         pc = bank * 0x8000
+        pc_end = (pc + 32*1024) -1
         if has_header:
             pc += 0x200
-        return hex(pc)
+        return "From: " + hex(pc) + " to: " + hex(pc_end)
 
 
 # ---------------------------------------------------------------------

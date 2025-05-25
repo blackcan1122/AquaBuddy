@@ -1,0 +1,1221 @@
+description,base_lorom,base_file_offset,plm_id,plm_name,x,y,param,file_offset,plm_description
+"; Room $91F8, state $9247. Landing site - power bombs have been collected",8F:8000,078000,B703,,30,40,92B0,078000,Scroll PLM
+"; Room $91F8, state $9247. Landing site - power bombs have been collected",8F:8000,078000,B647,,30,39,8000,078006,Upwards extension
+"; Room $91F8, state $9247. Landing site - power bombs have been collected",8F:8000,078000,B647,,30,38,8000,07800C,Upwards extension
+"; Room $91F8, state $9247. Landing site - power bombs have been collected",8F:8000,078000,B647,,30,37,8000,078012,Upwards extension
+"; Room $91F8, state $9247. Landing site - power bombs have been collected",8F:8000,078000,C872,,142,70,0000,078018,Door. Green door facing left
+"; Room $91F8, state $9247. Landing site - power bombs have been collected",8F:8000,078000,C85A,,142,22,0001,07801E,Door. Yellow door facing left
+"; Room $91F8, state $9261. Landing site - event ""Zebes timebomb set"" is set",8F:8026,078026,B703,,30,40,92B0,078026,Scroll PLM
+"; Room $91F8, state $9261. Landing site - event ""Zebes timebomb set"" is set",8F:8026,078026,B647,,30,39,8000,07802C,Upwards extension
+"; Room $91F8, state $9261. Landing site - event ""Zebes timebomb set"" is set",8F:8026,078026,B647,,30,38,8000,078032,Upwards extension
+"; Room $91F8, state $9261. Landing site - event ""Zebes timebomb set"" is set",8F:8026,078026,B647,,30,37,8000,078038,Upwards extension
+"; Room $91F8, state $9261. Landing site - event ""Zebes timebomb set"" is set",8F:8026,078026,DB44,,8,8,0008,07803E,Sets Metroids cleared states when required
+"; Room $91F8, state $9261. Landing site - event ""Zebes timebomb set"" is set",8F:8026,078026,C848,,1,38,9002,078044,Door. Grey door facing right
+"; Room $91F8, state $9261. Landing site - event ""Zebes timebomb set"" is set",8F:8026,078026,C842,,142,70,9003,07804A,Door. Grey door facing left
+"; Room $91F8, state $9261. Landing site - event ""Zebes timebomb set"" is set",8F:8026,078026,C842,,142,22,9004,078050,Door. Grey door facing left
+; Room $92B3. Gauntlet east,8F:8058,078058,B703,,67,11,938C,078076,Scroll PLM
+; Room $92B3. Gauntlet east,8F:8058,078058,B703,,22,13,938F,07807C,Scroll PLM
+; Room $92B3. Gauntlet east,8F:8058,078058,B63B,,23,13,8000,078082,Rightwards extension
+; Room $92B3. Gauntlet east,8F:8058,078058,B63B,,24,13,8000,078088,Rightwards extension
+; Room $92B3. Gauntlet east,8F:8058,078058,B63B,,25,13,8000,07808E,Rightwards extension
+; Room $92B3. Gauntlet east,8F:8058,078058,B703,,22,11,9396,078094,Scroll PLM
+; Room $92B3. Gauntlet east,8F:8058,078058,B63B,,23,11,8000,07809A,Rightwards extension
+; Room $92B3. Gauntlet east,8F:8058,078058,B63B,,24,11,8000,0780A0,Rightwards extension
+; Room $92B3. Gauntlet east,8F:8058,078058,B63B,,25,11,8000,0780A6,Rightwards extension
+; Room $92B3. Gauntlet east,8F:8058,078058,B703,,14,9,9399,0780AC,Scroll PLM
+; Room $92B3. Gauntlet east,8F:8058,078058,B647,,14,8,8000,0780B2,Upwards extension
+; Room $92B3. Gauntlet east,8F:8058,078058,B647,,14,7,8000,0780B8,Upwards extension
+; Room $92B3. Gauntlet east,8F:8058,078058,B703,,28,10,939C,0780BE,Scroll PLM
+; Room $92B3. Gauntlet east,8F:8058,078058,B647,,28,9,8000,0780C4,Upwards extension
+; Room $92B3. Gauntlet east,8F:8058,078058,B647,,28,8,8000,0780CA,Upwards extension
+; Room $92B3. Gauntlet east,8F:8058,078058,B647,,28,7,8000,0780D0,Upwards extension
+; Room $92B3. Gauntlet east,8F:8058,078058,B647,,28,6,8000,0780D6,Upwards extension
+; Room $92B3. Gauntlet east,8F:8058,078058,B647,,28,5,8000,0780DC,Upwards extension
+; Room $92B3. Gauntlet east,8F:8058,078058,B703,,50,11,939F,0780E2,Scroll PLM
+; Room $92B3. Gauntlet east,8F:8058,078058,B703,,60,11,939F,0780E8,Scroll PLM
+; Room $92B3. Gauntlet east,8F:8058,078058,B703,,58,17,93A2,0780EE,Scroll PLM
+; Room $92B3. Gauntlet east,8F:8058,078058,B63B,,59,17,8000,0780F4,Rightwards extension
+; Room $92B3. Gauntlet east,8F:8058,078058,B63B,,60,17,8000,0780FA,Rightwards extension
+; Room $92B3. Gauntlet east,8F:8058,078058,B63B,,61,17,8000,078100,Rightwards extension
+; Room $92B3. Gauntlet east,8F:8058,078058,B63B,,62,17,8000,078106,Rightwards extension
+; Room $92B3. Gauntlet east,8F:8058,078058,B703,,52,14,93A5,07810C,Scroll PLM
+; Room $92B3. Gauntlet east,8F:8058,078058,C88A,,30,54,0005,078112,Door. Red door facing left
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B703,,63,11,9389,07805A,Scroll PLM
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B703,,67,11,938C,078060,Scroll PLM
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B703,,22,13,938F,078066,Scroll PLM
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B63B,,23,13,8000,07806C,Rightwards extension
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B63B,,24,13,8000,078072,Rightwards extension
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B63B,,25,13,8000,078078,Rightwards extension
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B703,,22,11,9396,07807E,Scroll PLM
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B63B,,23,11,8000,078084,Rightwards extension
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B63B,,24,11,8000,07808A,Rightwards extension
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B63B,,25,11,8000,078090,Rightwards extension
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B703,,14,9,9399,078096,Scroll PLM
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B647,,14,8,8000,07809C,Upwards extension
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B647,,14,7,8000,0780A2,Upwards extension
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B703,,28,10,939C,0780A8,Scroll PLM
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B647,,28,9,8000,0780AE,Upwards extension
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B647,,28,8,8000,0780B4,Upwards extension
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B647,,28,7,8000,0780BA,Upwards extension
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B647,,28,6,8000,0780C0,Upwards extension
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B647,,28,5,8000,0780C6,Upwards extension
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B703,,50,11,939F,0780CC,Scroll PLM
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B703,,60,11,939F,0780D2,Scroll PLM
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B703,,58,17,93A2,0780D8,Scroll PLM
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B63B,,59,17,8000,0780DE,Rightwards extension
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B63B,,60,17,8000,0780E4,Rightwards extension
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B63B,,61,17,8000,0780EA,Rightwards extension
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B63B,,62,17,8000,0780F0,Rightwards extension
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,B703,,52,14,93A5,0780F6,Scroll PLM
+"; Room $92FD, state $932E. Crateria mainstreet - event ""Zebes is awake"" is set",8F:805A,07805A,C88A,,30,54,0005,0780FC,Door. Red door facing left
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B703,,63,11,9389,078104,Scroll PLM
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B703,,67,11,938C,07810A,Scroll PLM
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B703,,22,13,938F,078110,Scroll PLM
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B63B,,23,13,8000,078116,Rightwards extension
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B63B,,24,13,8000,07811C,Rightwards extension
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B63B,,25,13,8000,078122,Rightwards extension
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B703,,22,11,9396,078128,Scroll PLM
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B63B,,23,11,8000,07812E,Rightwards extension
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B63B,,24,11,8000,078134,Rightwards extension
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B63B,,25,11,8000,07813A,Rightwards extension
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B703,,14,9,9399,078140,Scroll PLM
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B647,,14,8,8000,078146,Upwards extension
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B647,,14,7,8000,07814C,Upwards extension
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B703,,28,10,939C,078152,Scroll PLM
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B647,,28,9,8000,078158,Upwards extension
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B647,,28,8,8000,07815E,Upwards extension
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B647,,28,7,8000,078164,Upwards extension
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B647,,28,6,8000,07816A,Upwards extension
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B647,,28,5,8000,078170,Upwards extension
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B703,,50,11,939F,078176,Scroll PLM
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B703,,60,11,939F,07817C,Scroll PLM
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B703,,58,17,93A2,078182,Scroll PLM
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B63B,,59,17,8000,078188,Rightwards extension
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B63B,,60,17,8000,07818E,Rightwards extension
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B63B,,61,17,8000,078194,Rightwards extension
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B63B,,62,17,8000,07819A,Rightwards extension
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,B703,,52,14,93A5,0781A0,Scroll PLM
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,DB44,,8,8,000A,0781A6,Sets Metroids cleared states when required
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,C848,,1,6,9006,0781AC,Door. Grey door facing right
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,C848,,17,38,9007,0781B2,Door. Grey door facing right
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,C848,,17,54,9008,0781B8,Door. Grey door facing right
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,C842,,30,54,9009,0781BE,Door. Grey door facing left
+"; Room $92FD, state $9348. Crateria mainstreet - event ""Zebes timebomb set"" is set",8F:8104,078104,C84E,,22,77,900A,0781C4,Door. Grey door facing up
+; Room $93AA. Landing site power bombs cave,8F:81CC,0781CC,EEE3,,29,7,0000,0781CC,Power bomb tank
+; Room $93D5. Crateria save station,8F:81D4,0781D4,B76F,,5,11,0001,0781D4,Save station
+; Room $93FE. Wrecked Ship entrance,8F:81DC,0781DC,C842,,94,54,900B,0781DC,Door. Grey door facing left
+; Room $93FE. Wrecked Ship entrance,8F:81DC,0781DC,C872,,126,70,000C,0781E2,Door. Green door facing left
+; Room $93FE. Wrecked Ship entrance,8F:81DC,0781DC,EEDB,,2,91,0001,0781E8,Missile tank
+; Room $93FE. Wrecked Ship entrance,8F:81DC,0781DC,EF83,,28,3,0002,0781EE,"Missile tank, shot block"
+; Room $93FE. Wrecked Ship entrance,8F:81DC,0781DC,EEDB,,1,47,0003,0781F4,Missile tank
+; Room $9461. Pre orange zoomer hall,8F:81FC,0781FC,B63B,,24,15,8000,078214,Rightwards extension
+; Room $9461. Pre orange zoomer hall,8F:81FC,0781FC,B703,,22,12,94C7,07821A,Scroll PLM
+; Room $9461. Pre orange zoomer hall,8F:81FC,0781FC,B63B,,23,12,8000,078220,Rightwards extension
+; Room $9461. Pre orange zoomer hall,8F:81FC,0781FC,B63B,,24,12,8000,078226,Rightwards extension
+; Room $9461. Pre orange zoomer hall,8F:81FC,0781FC,B63B,,25,12,8000,07822C,Rightwards extension
+; Room $9461. Pre orange zoomer hall,8F:81FC,0781FC,C85A,,46,6,000D,078232,Door. Yellow door facing left
+; Room $9461. Pre orange zoomer hall,8F:81FC,0781FC,C866,,22,45,000E,078238,Door. Yellow door facing up
+; Room $948C. Pre moat room,8F:81FE,0781FE,B703,,23,15,94C2,0781FE,Scroll PLM
+; Room $948C. Pre moat room,8F:81FE,0781FE,B63B,,24,15,8000,078204,Rightwards extension
+; Room $948C. Pre moat room,8F:81FE,0781FE,B703,,22,12,94C7,07820A,Scroll PLM
+; Room $948C. Pre moat room,8F:81FE,0781FE,B63B,,23,12,8000,078210,Rightwards extension
+; Room $948C. Pre moat room,8F:81FE,0781FE,B63B,,24,12,8000,078216,Rightwards extension
+; Room $948C. Pre moat room,8F:81FE,0781FE,B63B,,25,12,8000,07821C,Rightwards extension
+; Room $948C. Pre moat room,8F:81FE,0781FE,C85A,,46,6,000D,078222,Door. Yellow door facing left
+; Room $948C. Pre moat room,8F:81FE,0781FE,C866,,22,45,000E,078228,Door. Yellow door facing up
+; Room $94CC. Crateria -> Maridia elevator,8F:8230,078230,B703,,8,13,94FA,078230,Scroll PLM
+; Room $95A8. Forgotten highway elbow,8F:823E,07823E,C866,,6,13,000F,07823E,Door. Yellow door facing up
+; Room $95FF. Moat,8F:8248,078248,EEDB,,14,9,0004,078248,Missile tank
+; Room $962A. Crateria -> Red Brinstar elevator,8F:8250,078250,B703,,8,13,9658,078250,Scroll PLM
+; Room $962A. Crateria -> Red Brinstar elevator,8F:8250,078250,C86C,,6,2,0010,078256,Door. Yellow door facing down
+; Room $965B. Gauntlet west,8F:825E,07825E,B703,,84,12,968C,07825E,Scroll PLM
+; Room $965B. Gauntlet west,8F:825E,07825E,EED7,,83,8,0005,078264,Energy tank
+; Room $968F. Orange zoomer hall,8F:826C,07826C,B703,,32,5,9744,07828A,Scroll PLM
+; Room $968F. Orange zoomer hall,8F:826C,07826C,B703,,29,118,974D,078290,Scroll PLM
+; Room $968F. Orange zoomer hall,8F:826C,07826C,B703,,32,118,974A,078296,Scroll PLM
+; Room $968F. Orange zoomer hall,8F:826C,07826C,B63F,,18,133,8000,07829C,Leftwards extension
+; Room $968F. Orange zoomer hall,8F:826C,07826C,B63F,,19,133,8000,0782A2,Leftwards extension
+; Room $968F. Orange zoomer hall,8F:826C,07826C,B647,,20,133,8000,0782A8,Upwards extension
+; Room $968F. Orange zoomer hall,8F:826C,07826C,B647,,20,134,8000,0782AE,Upwards extension
+; Room $968F. Orange zoomer hall,8F:826C,07826C,B647,,20,135,8000,0782B4,Upwards extension
+; Room $968F. Orange zoomer hall,8F:826C,07826C,B647,,20,136,8000,0782BA,Upwards extension
+; Room $968F. Orange zoomer hall,8F:826C,07826C,B703,,20,137,9753,0782C0,Scroll PLM
+; Room $968F. Orange zoomer hall,8F:826C,07826C,B647,,15,134,8000,0782C6,Upwards extension
+; Room $968F. Orange zoomer hall,8F:826C,07826C,B647,,15,135,8000,0782CC,Upwards extension
+; Room $968F. Orange zoomer hall,8F:826C,07826C,B647,,15,136,8000,0782D2,Upwards extension
+; Room $968F. Orange zoomer hall,8F:826C,07826C,B703,,15,137,9750,0782D8,Scroll PLM
+; Room $968F. Orange zoomer hall,8F:826C,07826C,B647,,13,134,8000,0782DE,Upwards extension
+; Room $968F. Orange zoomer hall,8F:826C,07826C,B647,,13,135,8000,0782E4,Upwards extension
+; Room $968F. Orange zoomer hall,8F:826C,07826C,B647,,13,136,8000,0782EA,Upwards extension
+; Room $968F. Orange zoomer hall,8F:826C,07826C,B703,,13,137,9756,0782F0,Scroll PLM
+; Room $968F. Orange zoomer hall,8F:826C,07826C,B647,,8,134,8000,0782F6,Upwards extension
+; Room $968F. Orange zoomer hall,8F:826C,07826C,B647,,8,135,8000,0782FC,Upwards extension
+; Room $968F. Orange zoomer hall,8F:826C,07826C,B647,,8,136,8000,078302,Upwards extension
+; Room $968F. Orange zoomer hall,8F:826C,07826C,B703,,8,137,9759,078308,Scroll PLM
+; Room $968F. Orange zoomer hall,8F:826C,07826C,C842,,46,6,9011,07830E,Door. Grey door facing left
+; Room $968F. Orange zoomer hall,8F:826C,07826C,C848,,1,134,9012,078314,Door. Grey door facing right
+; Room $968F. Orange zoomer hall,8F:826C,07826C,C85A,,46,118,0013,07831A,Door. Yellow door facing left
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,B703,,29,5,9747,07826E,Scroll PLM
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,B703,,32,5,9744,078274,Scroll PLM
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,B703,,29,118,974D,07827A,Scroll PLM
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,B703,,32,118,974A,078280,Scroll PLM
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,B63F,,18,133,8000,078286,Leftwards extension
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,B63F,,19,133,8000,07828C,Leftwards extension
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,B647,,20,133,8000,078292,Upwards extension
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,B647,,20,134,8000,078298,Upwards extension
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,B647,,20,135,8000,07829E,Upwards extension
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,B647,,20,136,8000,0782A4,Upwards extension
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,B703,,20,137,9753,0782AA,Scroll PLM
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,B647,,15,134,8000,0782B0,Upwards extension
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,B647,,15,135,8000,0782B6,Upwards extension
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,B647,,15,136,8000,0782BC,Upwards extension
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,B703,,15,137,9750,0782C2,Scroll PLM
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,B647,,13,134,8000,0782C8,Upwards extension
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,B647,,13,135,8000,0782CE,Upwards extension
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,B647,,13,136,8000,0782D4,Upwards extension
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,B703,,13,137,9756,0782DA,Scroll PLM
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,B647,,8,134,8000,0782E0,Upwards extension
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,B647,,8,135,8000,0782E6,Upwards extension
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,B647,,8,136,8000,0782EC,Upwards extension
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,B703,,8,137,9759,0782F2,Scroll PLM
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,C842,,46,6,9011,0782F8,Door. Grey door facing left
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,C848,,1,134,9012,0782FE,Door. Grey door facing right
+"; Room $96BA, state $96EB. Old Tourian escape shaft - event ""Zebes is awake"" is set",8F:826E,07826E,C85A,,46,118,0013,078304,Door. Yellow door facing left
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,B703,,29,5,9747,07830C,Scroll PLM
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,B703,,32,5,9744,078312,Scroll PLM
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,B703,,29,118,974D,078318,Scroll PLM
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,B703,,32,118,974A,07831E,Scroll PLM
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,B63F,,18,133,8000,078324,Leftwards extension
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,B63F,,19,133,8000,07832A,Leftwards extension
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,B647,,20,133,8000,078330,Upwards extension
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,B647,,20,134,8000,078336,Upwards extension
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,B647,,20,135,8000,07833C,Upwards extension
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,B647,,20,136,8000,078342,Upwards extension
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,B703,,20,137,9753,078348,Scroll PLM
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,B647,,15,134,8000,07834E,Upwards extension
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,B647,,15,135,8000,078354,Upwards extension
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,B647,,15,136,8000,07835A,Upwards extension
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,B703,,15,137,9750,078360,Scroll PLM
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,B647,,13,134,8000,078366,Upwards extension
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,B647,,13,135,8000,07836C,Upwards extension
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,B647,,13,136,8000,078372,Upwards extension
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,B703,,13,137,9756,078378,Scroll PLM
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,B647,,8,134,8000,07837E,Upwards extension
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,B647,,8,135,8000,078384,Upwards extension
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,B647,,8,136,8000,07838A,Upwards extension
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,B703,,8,137,9759,078390,Scroll PLM
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,DB44,,8,8,000C,078396,Sets Metroids cleared states when required
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,C842,,46,6,9014,07839C,Door. Grey door facing left
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,C842,,46,118,9015,0783A2,Door. Grey door facing left
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,C842,,30,134,9016,0783A8,Door. Grey door facing left
+"; Room $96BA, state $9705. Old Tourian escape shaft - event ""Zebes timebomb set"" is set",8F:830C,07830C,C848,,1,134,9017,0783AE,Door. Grey door facing right
+"; Room $975C, state $976D. Old Mother Brain room - default",8F:83B6,0783B6,B703,,4,15,97AB,0783B6,Scroll PLM
+"; Room $975C, state $976D. Old Mother Brain room - default",8F:83B6,0783B6,B703,,6,15,97AB,0783BC,Scroll PLM
+"; Room $975C, state $976D. Old Mother Brain room - default",8F:83B6,0783B6,B703,,5,9,97B0,0783C2,Scroll PLM
+"; Room $975C, state $976D. Old Mother Brain room - default",8F:83B6,0783B6,C848,,1,6,9018,0783C8,Door. Grey door facing right
+"; Room $975C, state $9787. Old Mother Brain room - morph ball and missiles have been collected",8F:83D0,0783D0,B703,,4,15,97AB,0783D0,Scroll PLM
+"; Room $975C, state $9787. Old Mother Brain room - morph ball and missiles have been collected",8F:83D0,0783D0,B703,,6,15,97AB,0783D6,Scroll PLM
+"; Room $975C, state $9787. Old Mother Brain room - morph ball and missiles have been collected",8F:83D0,0783D0,B703,,5,9,97B0,0783DC,Scroll PLM
+"; Room $975C, state $9787. Old Mother Brain room - morph ball and missiles have been collected",8F:83D0,0783D0,C842,,46,6,0C19,0783E2,Door. Grey door facing left
+"; Room $975C, state $9787. Old Mother Brain room - morph ball and missiles have been collected",8F:83D0,0783D0,C848,,1,6,0C1A,0783E8,Door. Grey door facing right
+"; Room $975C, state $9787. Old Mother Brain room - morph ball and missiles have been collected",8F:83D0,0783D0,EEDB,,5,26,0006,0783EE,Missile tank
+; Room $97B5. Crateria -> Blue Brinstar elevator,8F:83F6,0783F6,B703,,7,13,9801,0783F6,Scroll PLM
+"; Room $9804, state $9835. Bomb Torizo - area torizo is dead",8F:83FE,0783FE,BAF4,,1,6,081B,0783FE,Bomb torizo grey door
+"; Room $9804, state $9835. Bomb Torizo - area torizo is dead",8F:83FE,0783FE,EF3B,,12,10,0007,078404,"Bombs, chozo orb"
+"; Room $9804, state $9835. Bomb Torizo - area torizo is dead",8F:83FE,0783FE,D6EA,,13,11,0000,07840A,Bomb Torizo's crumbling chozo
+"; Room $9804, state $984F. Bomb Torizo - event ""Zebes timebomb set"" is set",8F:8412,078412,DB44,,8,8,000E,078412,Sets Metroids cleared states when required
+"; Room $9804, state $984F. Bomb Torizo - event ""Zebes timebomb set"" is set",8F:8412,078412,C848,,1,6,181C,078418,Door. Grey door facing right
+"; Room $9879, state $98AA. Pre Bomb Torizo hall - area torizo is dead",8F:8420,078420,C88A,,46,6,001D,078420,Door. Red door facing left
+"; Room $9879, state $98C4. Pre Bomb Torizo hall - event ""Zebes timebomb set"" is set",8F:8428,078428,DB44,,8,8,0010,078428,Sets Metroids cleared states when required
+; Room $990D. Crateria slope,8F:8432,078432,EED7,,7,42,0008,078432,Energy tank
+; Room $9938. Crateria -> Green Brinstar elevator,8F:843A,07843A,B703,,7,13,9966,07843A,Scroll PLM
+; Room $9994. Crateria map station,8F:8444,078444,B6D3,,11,10,8000,078444,Map station
+; Room $99BD. Crateria space pirate shaft,8F:844C,07844C,B703,,7,67,99F3,07844C,Scroll PLM
+; Room $99BD. Crateria space pirate shaft,8F:844C,07844C,B63B,,8,67,8000,078452,Rightwards extension
+; Room $99BD. Crateria space pirate shaft,8F:844C,07844C,B703,,9,70,99F6,078458,Scroll PLM
+; Room $99BD. Crateria space pirate shaft,8F:844C,07844C,B63B,,10,70,8000,07845E,Rightwards extension
+; Room $99BD. Crateria space pirate shaft,8F:844C,07844C,EEDB,,13,27,0009,078464,Missile tank
+; Room $99BD. Crateria space pirate shaft,8F:844C,07844C,EEDB,,2,27,000A,07846A,Missile tank
+; Room $99BD. Crateria space pirate shaft,8F:844C,07844C,C88A,,14,102,001E,078470,Door. Red door facing left
+; Room $99F9. Crateria spike floor room,8F:8478,078478,EEDF,,59,9,000B,078478,Super missile tank
+"; Room $9A90, state $9ABC. Crateria chozo missile - event ""Zebes is awake"" is set",8F:8486,078486,EEDB,,4,7,000C,078486,Missile tank
+; Room $9AD9. Green Brinstar mainstreet,8F:848E,07848E,B703,,7,113,9B46,07848E,Scroll PLM
+; Room $9AD9. Green Brinstar mainstreet,8F:848E,07848E,B703,,16,168,9B4B,078494,Scroll PLM
+; Room $9AD9. Green Brinstar mainstreet,8F:848E,07848E,B703,,33,168,9B4B,07849A,Scroll PLM
+; Room $9AD9. Green Brinstar mainstreet,8F:848E,07848E,B703,,13,172,9B52,0784A0,Scroll PLM
+; Room $9AD9. Green Brinstar mainstreet,8F:848E,07848E,B70B,,6,44,8000,0784A6,Elevator platform
+; Room $9AD9. Green Brinstar mainstreet,8F:848E,07848E,EF37,,60,122,000D,0784AC,"Power bomb tank, chozo orb"
+; Room $9AD9. Green Brinstar mainstreet,8F:848E,07848E,C890,,1,86,001F,0784B2,Door. Red door facing right
+; Room $9AD9. Green Brinstar mainstreet,8F:848E,07848E,C890,,1,70,0020,0784B8,Door. Red door facing right
+; Room $9AD9. Green Brinstar mainstreet,8F:848E,07848E,C88A,,14,70,0021,0784BE,Door. Red door facing left
+; Room $9AD9. Green Brinstar mainstreet,8F:848E,07848E,C88A,,14,102,0022,0784C4,Door. Red door facing left
+; Room $9AD9. Green Brinstar mainstreet,8F:848E,07848E,C890,,1,102,0023,0784CA,Door. Red door facing right
+; Room $9AD9. Green Brinstar mainstreet,8F:848E,07848E,C842,,14,118,9024,0784D0,Door. Grey door facing left
+; Room $9B5B. Spore Spawn's super missile shaft,8F:84D8,0784D8,B703,,23,11,9B98,0784D8,Scroll PLM
+; Room $9B5B. Spore Spawn's super missile shaft,8F:84D8,0784D8,B63B,,24,11,8000,0784DE,Rightwards extension
+; Room $9B5B. Spore Spawn's super missile shaft,8F:84D8,0784D8,EF33,,26,135,000E,0784E4,"Super missile tank, chozo orb"
+; Room $9B9D. Pre Brinstar map room hall,8F:84EC,0784EC,C842,,46,6,0C25,0784EC,Door. Grey door facing left
+; Room $9BC8. Early supers room,8F:84F4,0784F4,B703,,41,14,9BF9,0784F4,Scroll PLM
+; Room $9BC8. Early supers room,8F:84F4,0784F4,B63B,,42,14,8000,0784FA,Rightwards extension
+; Room $9BC8. Early supers room,8F:84F4,0784F4,B63B,,43,14,8000,078500,Rightwards extension
+; Room $9BC8. Early supers room,8F:84F4,0784F4,B703,,4,19,9C00,078506,Scroll PLM
+; Room $9BC8. Early supers room,8F:84F4,0784F4,B703,,4,15,9BF9,07850C,Scroll PLM
+; Room $9BC8. Early supers room,8F:84F4,0784F4,C88A,,46,22,0026,078512,Door. Red door facing left
+; Room $9BC8. Early supers room,8F:84F4,0784F4,EEDB,,19,27,000F,078518,Missile tank
+; Room $9BC8. Early supers room,8F:84F4,0784F4,EEDF,,4,6,0010,07851E,Super missile tank
+; Room $9C07. Brinstar reserve tank room,8F:8526,078526,B703,,14,11,9C32,078526,Scroll PLM
+; Room $9C07. Brinstar reserve tank room,8F:8526,078526,EF7B,,11,7,0011,07852C,"Reserve tank, chozo orb"
+; Room $9C07. Brinstar reserve tank room,8F:8526,078526,EF83,,30,7,0012,078532,"Missile tank, shot block"
+; Room $9C07. Brinstar reserve tank room,8F:8526,078526,EEDB,,25,7,0013,078538,Missile tank
+; Room $9C35. Brinstar map station,8F:8540,078540,B6D3,,5,10,8000,078540,Map station
+; Room $9C5E. Fireflea room,8F:8548,078548,C878,,1,38,0027,078548,Door. Green door facing right
+; Room $9C89. Green Brinstar missile station,8F:8550,078550,B6EB,,4,10,0014,078550,Missile station
+; Room $9CB3. Dachora room,8F:8558,078558,B643,,69,14,8000,078558,Downwards extension
+; Room $9CB3. Dachora room,8F:8558,078558,B63F,,69,13,8000,07855E,Leftwards extension
+; Room $9CB3. Dachora room,8F:8558,078558,B63F,,70,13,8000,078564,Leftwards extension
+; Room $9CB3. Dachora room,8F:8558,078558,B63F,,71,13,8000,07856A,Leftwards extension
+; Room $9CB3. Dachora room,8F:8558,078558,B63F,,72,13,8000,078570,Leftwards extension
+; Room $9CB3. Dachora room,8F:8558,078558,B63F,,73,13,8000,078576,Leftwards extension
+; Room $9CB3. Dachora room,8F:8558,078558,B703,,74,13,9D11,07857C,Scroll PLM
+; Room $9CB3. Dachora room,8F:8558,078558,B647,,64,8,8000,078582,Upwards extension
+; Room $9CB3. Dachora room,8F:8558,078558,B647,,64,9,8000,078588,Upwards extension
+; Room $9CB3. Dachora room,8F:8558,078558,B647,,64,10,8000,07858E,Upwards extension
+; Room $9CB3. Dachora room,8F:8558,078558,B703,,64,11,9D14,078594,Scroll PLM
+; Room $9CB3. Dachora room,8F:8558,078558,B643,,75,11,8000,07859A,Downwards extension
+; Room $9CB3. Dachora room,8F:8558,078558,B643,,75,10,8000,0785A0,Downwards extension
+; Room $9CB3. Dachora room,8F:8558,078558,B63B,,75,9,8000,0785A6,Rightwards extension
+; Room $9CB3. Dachora room,8F:8558,078558,B63B,,74,9,8000,0785AC,Rightwards extension
+; Room $9CB3. Dachora room,8F:8558,078558,B63B,,73,9,8000,0785B2,Rightwards extension
+; Room $9CB3. Dachora room,8F:8558,078558,B63B,,72,9,8000,0785B8,Rightwards extension
+; Room $9CB3. Dachora room,8F:8558,078558,B63B,,71,9,8000,0785BE,Rightwards extension
+; Room $9CB3. Dachora room,8F:8558,078558,B63B,,70,9,8000,0785C4,Rightwards extension
+; Room $9CB3. Dachora room,8F:8558,078558,B63B,,69,9,8000,0785CA,Rightwards extension
+; Room $9CB3. Dachora room,8F:8558,078558,B647,,68,9,8000,0785D0,Upwards extension
+; Room $9CB3. Dachora room,8F:8558,078558,B647,,68,10,8000,0785D6,Upwards extension
+; Room $9CB3. Dachora room,8F:8558,078558,B703,,68,11,9D14,0785DC,Scroll PLM
+; Room $9D19. Charge beam room,8F:85E4,0785E4,B703,,46,107,9D84,0785E4,Scroll PLM
+; Room $9D19. Charge beam room,8F:85E4,0785E4,B703,,32,122,9D8B,0785EA,Scroll PLM
+; Room $9D19. Charge beam room,8F:85E4,0785E4,B703,,61,87,9D8E,0785F0,Scroll PLM
+; Room $9D19. Charge beam room,8F:85E4,0785E4,B703,,64,87,9D91,0785F6,Scroll PLM
+; Room $9D19. Charge beam room,8F:85E4,0785E4,B703,,31,8,9D96,0785FC,Scroll PLM
+; Room $9D19. Charge beam room,8F:85E4,0785E4,B703,,33,8,9D99,078602,Scroll PLM
+; Room $9D19. Charge beam room,8F:85E4,0785E4,EEDB,,36,50,0015,078608,Missile tank
+; Room $9D19. Charge beam room,8F:85E4,0785E4,EEDB,,34,103,0016,07860E,Missile tank
+; Room $9D19. Charge beam room,8F:85E4,0785E4,EF3F,,37,118,0017,078614,"Charge beam, chozo orb"
+; Room $9D19. Charge beam room,8F:85E4,0785E4,C85A,,62,70,0028,07861A,Door. Yellow door facing left
+; Room $9D19. Charge beam room,8F:85E4,0785E4,C872,,62,102,0029,078620,Door. Green door facing left
+; Room $9D19. Charge beam room,8F:85E4,0785E4,C88A,,62,6,002A,078626,Door. Red door facing left
+; Room $9D19. Charge beam room,8F:85E4,0785E4,C890,,1,150,002B,07862C,Door. Red door facing right
+; Room $9D9C. Pre Spore Spawn hall,8F:8634,078634,C848,,1,6,0C2C,078634,Door. Grey door facing right
+; Room $9D9C. Pre Spore Spawn hall,8F:8634,078634,C854,,54,3,0C2D,07863A,Door. Grey door facing down
+; Room $9DC7. Spore Spawn,8F:8642,078642,C87E,,6,46,002E,078642,Door. Green door facing up
+; Room $9E11. Brinstar super-sidehopper power bomb room,8F:864A,07864A,B703,,8,14,9E40,07864A,Scroll PLM
+; Room $9E11. Brinstar super-sidehopper power bomb room,8F:864A,07864A,B703,,8,11,9E49,078650,Scroll PLM
+; Room $9E11. Brinstar super-sidehopper power bomb room,8F:864A,07864A,C842,,30,6,0C2F,078656,Door. Grey door facing left
+; Room $9E11. Brinstar super-sidehopper power bomb room,8F:864A,07864A,EEE3,,6,23,0018,07865C,Power bomb tank
+; Room $9E52. Brinstar diagonal room,8F:8664,078664,C82A,,100,55,8000,078664,Downwards closed gate
+; Room $9E52. Brinstar diagonal room,8F:8664,078664,C836,,100,55,0000,07866A,Downwards gate shotblock
+; Room $9E52. Brinstar diagonal room,8F:8664,078664,C85A,,30,6,0030,078670,Door. Yellow door facing left
+; Room $9E52. Brinstar diagonal room,8F:8664,078664,EEDB,,61,24,0019,078676,Missile tank
+"; Room $9E9F, state $9EB1. Morph ball room - default",8F:867E,07867E,B703,,31,43,9F05,07867E,Scroll PLM
+"; Room $9E9F, state $9EB1. Morph ball room - default",8F:867E,07867E,B647,,8,35,8000,078684,Upwards extension
+"; Room $9E9F, state $9EB1. Morph ball room - default",8F:867E,07867E,B647,,8,36,8000,07868A,Upwards extension
+"; Room $9E9F, state $9EB1. Morph ball room - default",8F:867E,07867E,B647,,8,37,8000,078690,Upwards extension
+"; Room $9E9F, state $9EB1. Morph ball room - default",8F:867E,07867E,B647,,8,38,8000,078696,Upwards extension
+"; Room $9E9F, state $9EB1. Morph ball room - default",8F:867E,07867E,B647,,8,39,8000,07869C,Upwards extension
+"; Room $9E9F, state $9EB1. Morph ball room - default",8F:867E,07867E,B647,,8,40,8000,0786A2,Upwards extension
+"; Room $9E9F, state $9EB1. Morph ball room - default",8F:867E,07867E,B647,,8,41,8000,0786A8,Upwards extension
+"; Room $9E9F, state $9EB1. Morph ball room - default",8F:867E,07867E,B647,,8,42,8000,0786AE,Upwards extension
+"; Room $9E9F, state $9EB1. Morph ball room - default",8F:867E,07867E,B703,,8,43,9F08,0786B4,Scroll PLM
+"; Room $9E9F, state $9EB1. Morph ball room - default",8F:867E,07867E,B63B,,88,33,8000,0786BA,Rightwards extension
+"; Room $9E9F, state $9EB1. Morph ball room - default",8F:867E,07867E,B703,,87,33,9F0B,0786C0,Scroll PLM
+"; Room $9E9F, state $9EB1. Morph ball room - default",8F:867E,07867E,B63B,,88,10,8000,0786C6,Rightwards extension
+"; Room $9E9F, state $9EB1. Morph ball room - default",8F:867E,07867E,B703,,87,10,9F0B,0786CC,Scroll PLM
+"; Room $9E9F, state $9EB1. Morph ball room - default",8F:867E,07867E,B63B,,88,38,8000,0786D2,Rightwards extension
+"; Room $9E9F, state $9EB1. Morph ball room - default",8F:867E,07867E,B703,,87,38,9F0E,0786D8,Scroll PLM
+"; Room $9E9F, state $9EB1. Morph ball room - default",8F:867E,07867E,EF23,morph_ball,69,41,001A,0786DE,Morph ball
+"; Room $9E9F, state $9ECB. Morph ball room - event ""Zebes is awake"" is set",8F:86E6,0786E6,B703,,31,43,9F05,0786E6,Scroll PLM
+"; Room $9E9F, state $9ECB. Morph ball room - event ""Zebes is awake"" is set",8F:86E6,0786E6,B647,,8,35,8000,0786EC,Upwards extension
+"; Room $9E9F, state $9ECB. Morph ball room - event ""Zebes is awake"" is set",8F:86E6,0786E6,B647,,8,36,8000,0786F2,Upwards extension
+"; Room $9E9F, state $9ECB. Morph ball room - event ""Zebes is awake"" is set",8F:86E6,0786E6,B647,,8,37,8000,0786F8,Upwards extension
+"; Room $9E9F, state $9ECB. Morph ball room - event ""Zebes is awake"" is set",8F:86E6,0786E6,B647,,8,38,8000,0786FE,Upwards extension
+"; Room $9E9F, state $9ECB. Morph ball room - event ""Zebes is awake"" is set",8F:86E6,0786E6,B647,,8,39,8000,078704,Upwards extension
+"; Room $9E9F, state $9ECB. Morph ball room - event ""Zebes is awake"" is set",8F:86E6,0786E6,B647,,8,40,8000,07870A,Upwards extension
+"; Room $9E9F, state $9ECB. Morph ball room - event ""Zebes is awake"" is set",8F:86E6,0786E6,B647,,8,41,8000,078710,Upwards extension
+"; Room $9E9F, state $9ECB. Morph ball room - event ""Zebes is awake"" is set",8F:86E6,0786E6,B647,,8,42,8000,078716,Upwards extension
+"; Room $9E9F, state $9ECB. Morph ball room - event ""Zebes is awake"" is set",8F:86E6,0786E6,B703,,8,43,9F08,07871C,Scroll PLM
+"; Room $9E9F, state $9ECB. Morph ball room - event ""Zebes is awake"" is set",8F:86E6,0786E6,B63B,,88,33,8000,078722,Rightwards extension
+"; Room $9E9F, state $9ECB. Morph ball room - event ""Zebes is awake"" is set",8F:86E6,0786E6,B703,,87,33,9F0B,078728,Scroll PLM
+"; Room $9E9F, state $9ECB. Morph ball room - event ""Zebes is awake"" is set",8F:86E6,0786E6,B63B,,88,10,8000,07872E,Rightwards extension
+"; Room $9E9F, state $9ECB. Morph ball room - event ""Zebes is awake"" is set",8F:86E6,0786E6,B703,,87,10,9F0B,078734,Scroll PLM
+"; Room $9E9F, state $9ECB. Morph ball room - event ""Zebes is awake"" is set",8F:86E6,0786E6,B63B,,88,38,8000,07873A,Rightwards extension
+"; Room $9E9F, state $9ECB. Morph ball room - event ""Zebes is awake"" is set",8F:86E6,0786E6,B703,,87,38,9F0E,078740,Scroll PLM
+"; Room $9E9F, state $9ECB. Morph ball room - event ""Zebes is awake"" is set",8F:86E6,0786E6,C848,,1,38,0C31,078746,Door. Grey door facing right
+"; Room $9E9F, state $9ECB. Morph ball room - event ""Zebes is awake"" is set",8F:86E6,0786E6,EEE3,,40,42,001B,07874C,Power bomb tank
+; Room $9F11. Old Kraid entrance,8F:8754,078754,B703,,4,11,9F5F,078754,Scroll PLM
+; Room $9F11. Old Kraid entrance,8F:8754,078754,B63B,,5,11,8000,07875A,Rightwards extension
+; Room $9F11. Old Kraid entrance,8F:8754,078754,B63B,,6,11,8000,078760,Rightwards extension
+; Room $9F11. Old Kraid entrance,8F:8754,078754,B63B,,7,11,8000,078766,Rightwards extension
+; Room $9F11. Old Kraid entrance,8F:8754,078754,B63B,,8,11,8000,07876C,Rightwards extension
+; Room $9F11. Old Kraid entrance,8F:8754,078754,B63B,,9,11,8000,078772,Rightwards extension
+; Room $9F11. Old Kraid entrance,8F:8754,078754,B63B,,10,11,8000,078778,Rightwards extension
+; Room $9F11. Old Kraid entrance,8F:8754,078754,B63B,,11,11,8000,07877E,Rightwards extension
+; Room $9F11. Old Kraid entrance,8F:8754,078754,C88A,,14,6,0032,078784,Door. Red door facing left
+; Room $9F64. Blue Brinstar ceiling e-tank hall,8F:878C,07878C,B703,,39,11,9FB7,07878C,Scroll PLM
+; Room $9F64. Blue Brinstar ceiling e-tank hall,8F:878C,07878C,B703,,39,38,9FB7,078792,Scroll PLM
+; Room $9F64. Blue Brinstar ceiling e-tank hall,8F:878C,07878C,EEDB,,46,41,001C,078798,Missile tank
+; Room $9F64. Blue Brinstar ceiling e-tank hall,8F:878C,07878C,EF7F,,28,34,001D,07879E,"Energy tank, shot block"
+; Room $9FBA. n00b bridge,8F:87A6,0787A6,C872,,94,6,0033,0787A6,Door. Green door facing left
+; Room $9FE5. Etecoon area beetom room,8F:87AE,0787AE,B63B,,8,11,8000,0787C6,Rightwards extension
+; Room $9FE5. Etecoon area beetom room,8F:87AE,0787AE,B63B,,9,11,8000,0787CC,Rightwards extension
+; Room $9FE5. Etecoon area beetom room,8F:87AE,0787AE,EED7,,5,9,001E,0787D2,Energy tank
+; Room $9FE5. Etecoon area beetom room,8F:87AE,0787AE,C878,,1,6,0034,0787D8,Door. Green door facing right
+; Room $A011. Etecoon area spike hall,8F:87B0,0787B0,B703,,7,11,A04A,0787B0,Scroll PLM
+; Room $A011. Etecoon area spike hall,8F:87B0,0787B0,B63B,,8,11,8000,0787B6,Rightwards extension
+; Room $A011. Etecoon area spike hall,8F:87B0,0787B0,B63B,,9,11,8000,0787BC,Rightwards extension
+; Room $A011. Etecoon area spike hall,8F:87B0,0787B0,EED7,,5,9,001E,0787C2,Energy tank
+; Room $A011. Etecoon area spike hall,8F:87B0,0787B0,C878,,1,6,0034,0787C8,Door. Green door facing right
+; Room $A051. Etecoon area super missiles,8F:87D0,0787D0,EEDF,,7,9,001F,0787D0,Super missile tank
+; Room $A07B. Dachora energy station,8F:87D8,0787D8,B6DF,,4,10,0020,0787D8,Energy station
+; Room $A0A4. Post Spore Spawn supers hall,8F:87E0,0787E0,C878,,1,6,0035,0787E0,Door. Green door facing right
+; Room $A0D2. Pink Brinstar flooded hall,8F:87E8,0787E8,B647,,15,9,8000,0787E8,Upwards extension
+; Room $A0D2. Pink Brinstar flooded hall,8F:87E8,0787E8,B647,,15,10,8000,0787EE,Upwards extension
+; Room $A0D2. Pink Brinstar flooded hall,8F:87E8,0787E8,B703,,15,11,A104,0787F4,Scroll PLM
+; Room $A0D2. Pink Brinstar flooded hall,8F:87E8,0787E8,EED7,,4,9,0021,0787FA,Energy tank
+; Room $A107. Blue Brinstar missile room,8F:8802,078802,EF2F,,4,7,0022,078802,"Missile tank, chozo orb"
+; Room $A130. Brinstar wave-gate sidehopper room,8F:880A,07880A,C82A,,17,4,8000,07880A,Downwards closed gate
+; Room $A130. Brinstar wave-gate sidehopper room,8F:880A,07880A,C836,,17,4,0002,078810,Downwards gate shotblock
+; Room $A130. Brinstar wave-gate sidehopper room,8F:880A,07880A,C848,,1,22,0C36,078816,Door. Grey door facing right
+; Room $A130. Brinstar wave-gate sidehopper room,8F:880A,07880A,C842,,30,22,0C37,07881C,Door. Grey door facing left
+; Room $A15B. Brinstar wave-gate energy tank,8F:8824,078824,EED7,,11,9,0023,078824,Energy tank
+; Room $A184. Spore Spawn save station,8F:882C,07882C,B76F,,5,11,0000,07882C,Save station
+; Room $A1AD. Blue Brinstar boulder room,8F:8834,078834,EF83,,5,12,0025,07884C,"Missile tank, shot block"
+; Room $A1D8. Blue Brinstar double missile room,8F:8836,078836,EEDB,,7,9,0024,078836,Missile tank
+; Room $A1D8. Blue Brinstar double missile room,8F:8836,078836,EF83,,5,12,0025,07883C,"Missile tank, shot block"
+; Room $A201. Green Brinstar mainstreet save station,8F:8844,078844,B76F,,5,11,0001,078844,Save station
+; Room $A22A. Etecoon area save station,8F:884C,07884C,B76F,,5,11,0002,07884C,Save station
+; Room $A253. Red Brinstar mainstreet,8F:8854,078854,B703,,9,106,A28E,078854,Scroll PLM
+; Room $A253. Red Brinstar mainstreet,8F:8854,078854,B63B,,10,106,8000,07885A,Rightwards extension
+; Room $A253. Red Brinstar mainstreet,8F:8854,078854,C878,,1,150,0038,078860,Door. Green door facing right
+; Room $A253. Red Brinstar mainstreet,8F:8854,078854,C860,,1,102,0039,078866,Door. Yellow door facing right
+; Room $A293. Pre x-ray spike hall,8F:886E,07886E,C890,,1,6,003A,07886E,Door. Red door facing right
+; Room $A2CE. X-ray room,8F:8876,078876,EF63,,5,7,0026,078876,"X-ray scope, chozo orb"
+; Room $A2F7. Red Brinstar damage boost hall,8F:887E,07887E,B63B,,6,94,8000,078896,Rightwards extension
+; Room $A2F7. Red Brinstar damage boost hall,8F:887E,07887E,B703,,16,55,A374,07889C,Scroll PLM
+; Room $A2F7. Red Brinstar damage boost hall,8F:887E,07887E,B703,,13,55,A379,0788A2,Scroll PLM
+; Room $A2F7. Red Brinstar damage boost hall,8F:887E,07887E,B70B,,6,44,8000,0788A8,Elevator platform
+; Room $A2F7. Red Brinstar damage boost hall,8F:887E,07887E,C82A,,38,53,8000,0788AE,Downwards closed gate
+; Room $A2F7. Red Brinstar damage boost hall,8F:887E,07887E,C836,,38,53,000A,0788B4,Downwards gate shotblock
+; Room $A2F7. Red Brinstar damage boost hall,8F:887E,07887E,C878,,1,54,003B,0788BA,Door. Green door facing right
+; Room $A2F7. Red Brinstar damage boost hall,8F:887E,07887E,C860,,1,86,003C,0788C0,Door. Yellow door facing right
+; Room $A2F7. Red Brinstar damage boost hall,8F:887E,07887E,C878,,1,118,003D,0788C6,Door. Green door facing right
+; Room $A322. Red Brinstar -> Crateria elevator,8F:8880,078880,B703,,5,94,A36F,078880,Scroll PLM
+; Room $A322. Red Brinstar -> Crateria elevator,8F:8880,078880,B63B,,6,94,8000,078886,Rightwards extension
+; Room $A322. Red Brinstar -> Crateria elevator,8F:8880,078880,B703,,16,55,A374,07888C,Scroll PLM
+; Room $A322. Red Brinstar -> Crateria elevator,8F:8880,078880,B703,,13,55,A379,078892,Scroll PLM
+; Room $A322. Red Brinstar -> Crateria elevator,8F:8880,078880,B70B,,6,44,8000,078898,Elevator platform
+; Room $A322. Red Brinstar -> Crateria elevator,8F:8880,078880,C82A,,38,53,8000,07889E,Downwards closed gate
+; Room $A322. Red Brinstar -> Crateria elevator,8F:8880,078880,C836,,38,53,000A,0788A4,Downwards gate shotblock
+; Room $A322. Red Brinstar -> Crateria elevator,8F:8880,078880,C878,,1,54,003B,0788AA,Door. Green door facing right
+; Room $A322. Red Brinstar -> Crateria elevator,8F:8880,078880,C860,,1,86,003C,0788B0,Door. Yellow door facing right
+; Room $A322. Red Brinstar -> Crateria elevator,8F:8880,078880,C878,,1,118,003D,0788B6,Door. Green door facing right
+; Room $A37C. Red Brinstar power bomb floor room,8F:88BE,0788BE,B703,,7,14,A3A9,0788BE,Scroll PLM
+; Room $A37C. Red Brinstar power bomb floor room,8F:88BE,0788BE,B63B,,8,14,8000,0788C4,Rightwards extension
+; Room $A37C. Red Brinstar power bomb floor room,8F:88BE,0788BE,EEE3,,4,19,0027,0788CA,Power bomb tank
+; Room $A37C. Red Brinstar power bomb floor room,8F:88BE,0788BE,C842,,30,6,0C3E,0788D0,Door. Grey door facing left
+; Room $A3AE. Red Brinstar power bomb wall room,8F:88D8,0788D8,B647,,15,4,8000,0788D8,Upwards extension
+; Room $A3AE. Red Brinstar power bomb wall room,8F:88D8,0788D8,B647,,15,5,8000,0788DE,Upwards extension
+; Room $A3AE. Red Brinstar power bomb wall room,8F:88D8,0788D8,B647,,15,6,8000,0788E4,Upwards extension
+; Room $A3AE. Red Brinstar power bomb wall room,8F:88D8,0788D8,B647,,15,7,8000,0788EA,Upwards extension
+; Room $A3AE. Red Brinstar power bomb wall room,8F:88D8,0788D8,B647,,15,8,8000,0788F0,Upwards extension
+; Room $A3AE. Red Brinstar power bomb wall room,8F:88D8,0788D8,B647,,15,9,8000,0788F6,Upwards extension
+; Room $A3AE. Red Brinstar power bomb wall room,8F:88D8,0788D8,B647,,15,10,8000,0788FC,Upwards extension
+; Room $A3AE. Red Brinstar power bomb wall room,8F:88D8,0788D8,B647,,15,11,8000,078902,Upwards extension
+; Room $A3AE. Red Brinstar power bomb wall room,8F:88D8,0788D8,B703,,15,12,A3DA,078908,Scroll PLM
+; Room $A3AE. Red Brinstar power bomb wall room,8F:88D8,0788D8,EF37,,20,9,0028,07890E,"Power bomb tank, chozo orb"
+; Room $A3AE. Red Brinstar power bomb wall room,8F:88D8,0788D8,EEDB,,2,8,0029,078914,Missile tank
+; Room $A3DD. Red Brinstar skree-duo hall,8F:891C,07891C,B63B,,17,17,8000,078934,Rightwards extension
+; Room $A3DD. Red Brinstar skree-duo hall,8F:891C,07891C,B63B,,18,17,8000,07893A,Rightwards extension
+; Room $A3DD. Red Brinstar skree-duo hall,8F:891C,07891C,B63B,,19,17,8000,078940,Rightwards extension
+; Room $A3DD. Red Brinstar skree-duo hall,8F:891C,07891C,B703,,16,20,A43E,078946,Scroll PLM
+; Room $A3DD. Red Brinstar skree-duo hall,8F:891C,07891C,B63B,,17,20,8000,07894C,Rightwards extension
+; Room $A3DD. Red Brinstar skree-duo hall,8F:891C,07891C,B63B,,18,20,8000,078952,Rightwards extension
+; Room $A3DD. Red Brinstar skree-duo hall,8F:891C,07891C,B63B,,19,20,8000,078958,Rightwards extension
+; Room $A3DD. Red Brinstar skree-duo hall,8F:891C,07891C,B703,,8,17,A439,07895E,Scroll PLM
+; Room $A3DD. Red Brinstar skree-duo hall,8F:891C,07891C,B703,,8,20,A43E,078964,Scroll PLM
+; Room $A3DD. Red Brinstar skree-duo hall,8F:891C,07891C,B703,,2,17,A439,07896A,Scroll PLM
+; Room $A3DD. Red Brinstar skree-duo hall,8F:891C,07891C,B703,,2,20,A43E,078970,Scroll PLM
+; Room $A3DD. Red Brinstar skree-duo hall,8F:891C,07891C,C872,,30,6,003F,078976,Door. Green door facing left
+; Room $A408. Pre spazer room,8F:891E,07891E,B703,,16,17,A439,07891E,Scroll PLM
+; Room $A408. Pre spazer room,8F:891E,07891E,B63B,,17,17,8000,078924,Rightwards extension
+; Room $A408. Pre spazer room,8F:891E,07891E,B63B,,18,17,8000,07892A,Rightwards extension
+; Room $A408. Pre spazer room,8F:891E,07891E,B63B,,19,17,8000,078930,Rightwards extension
+; Room $A408. Pre spazer room,8F:891E,07891E,B703,,16,20,A43E,078936,Scroll PLM
+; Room $A408. Pre spazer room,8F:891E,07891E,B63B,,17,20,8000,07893C,Rightwards extension
+; Room $A408. Pre spazer room,8F:891E,07891E,B63B,,18,20,8000,078942,Rightwards extension
+; Room $A408. Pre spazer room,8F:891E,07891E,B63B,,19,20,8000,078948,Rightwards extension
+; Room $A408. Pre spazer room,8F:891E,07891E,B703,,8,17,A439,07894E,Scroll PLM
+; Room $A408. Pre spazer room,8F:891E,07891E,B703,,8,20,A43E,078954,Scroll PLM
+; Room $A408. Pre spazer room,8F:891E,07891E,B703,,2,17,A439,07895A,Scroll PLM
+; Room $A408. Pre spazer room,8F:891E,07891E,B703,,2,20,A43E,078960,Scroll PLM
+; Room $A408. Pre spazer room,8F:891E,07891E,C872,,30,6,003F,078966,Door. Green door facing left
+; Room $A447. Spazer room,8F:896E,07896E,EF53,,11,9,002A,07896E,"Spazer beam, chozo orb"
+; Room $A471. Kraid's lair zeela room,8F:8976,078976,B703,,2,11,A4A2,078976,Scroll PLM
+; Room $A471. Kraid's lair zeela room,8F:8976,078976,B703,,2,25,A4A9,07897C,Scroll PLM
+; Room $A471. Kraid's lair zeela room,8F:8976,078976,B703,,7,25,A4AE,078982,Scroll PLM
+; Room $A471. Kraid's lair zeela room,8F:8976,078976,B703,,21,25,A4A9,078988,Scroll PLM
+; Room $A471. Kraid's lair zeela room,8F:8976,078976,C848,,1,22,0040,07898E,Door. Grey door facing right
+; Room $A4B1. Kraid's lair beetom room,8F:8996,078996,C842,,14,6,0C41,078996,Door. Grey door facing left
+; Room $A4B1. Kraid's lair beetom room,8F:8996,078996,EF7F,,5,4,002B,07899C,"Energy tank, shot block"
+; Room $A4DA. Kraid's lair kihunter hall,8F:89A4,0789A4,B703,,23,11,A50F,0789A4,Scroll PLM
+; Room $A4DA. Kraid's lair kihunter hall,8F:89A4,0789A4,B703,,23,14,A514,0789AA,Scroll PLM
+; Room $A4DA. Kraid's lair kihunter hall,8F:89A4,0789A4,B647,,11,4,8000,0789B0,Upwards extension
+; Room $A4DA. Kraid's lair kihunter hall,8F:89A4,0789A4,B647,,11,5,8000,0789B6,Upwards extension
+; Room $A4DA. Kraid's lair kihunter hall,8F:89A4,0789A4,B647,,11,6,8000,0789BC,Upwards extension
+; Room $A4DA. Kraid's lair kihunter hall,8F:89A4,0789A4,B647,,11,7,8000,0789C2,Upwards extension
+; Room $A4DA. Kraid's lair kihunter hall,8F:89A4,0789A4,B647,,11,8,8000,0789C8,Upwards extension
+; Room $A4DA. Kraid's lair kihunter hall,8F:89A4,0789A4,B647,,11,9,8000,0789CE,Upwards extension
+; Room $A4DA. Kraid's lair kihunter hall,8F:89A4,0789A4,B647,,11,10,8000,0789D4,Upwards extension
+; Room $A4DA. Kraid's lair kihunter hall,8F:89A4,0789A4,B703,,11,11,A519,0789DA,Scroll PLM
+; Room $A4DA. Kraid's lair kihunter hall,8F:89A4,0789A4,B703,,39,12,A51C,0789E0,Scroll PLM
+; Room $A4DA. Kraid's lair kihunter hall,8F:89A4,0789A4,B703,,46,12,A51C,0789E6,Scroll PLM
+; Room $A4DA. Kraid's lair kihunter hall,8F:89A4,0789A4,EF83,,46,8,002C,0789EC,"Missile tank, shot block"
+; Room $A521. Fake Kraid's room,8F:89F4,0789F4,C842,,94,6,0C42,0789F4,Door. Grey door facing left
+; Room $A521. Fake Kraid's room,8F:89F4,0789F4,C848,,1,6,0C43,0789FA,Door. Grey door facing right
+; Room $A56B. Pre Kraid room,8F:8A02,078A02,B703,,3,18,A59C,078A02,Scroll PLM
+; Room $A56B. Pre Kraid room,8F:8A02,078A02,B63B,,4,18,8000,078A08,Rightwards extension
+; Room $A56B. Pre Kraid room,8F:8A02,078A02,B63B,,5,18,8000,078A0E,Rightwards extension
+; Room $A56B. Pre Kraid room,8F:8A02,078A02,C872,,14,6,0044,078A14,Door. Green door facing left
+; Room $A56B. Pre Kraid room,8F:8A02,078A02,DB5A,,30,22,0045,078A1A,"Door. Eye door, facing left"
+; Room $A56B. Pre Kraid room,8F:8A02,078A02,DB60,,30,25,0045,078A20,"Eye door bottom, facing left"
+; Room $A56B. Pre Kraid room,8F:8A02,078A02,DB56,,30,23,0045,078A26,"Eye door eye, facing left"
+; Room $A59F. Kraid,8F:8A2E,078A2E,C842,,30,22,0046,078A2E,Door. Grey door facing left
+; Room $A59F. Kraid,8F:8A2E,078A2E,C848,,1,22,0047,078A34,Door. Grey door facing right
+; Room $A618. Red Brinstar energy station,8F:8A3E,078A3E,B6DF,,4,10,002D,078A3E,Energy station
+; Room $A641. Kraid's lair refill station,8F:8A46,078A46,B6EB,,9,10,002E,078A46,Missile station
+; Room $A641. Kraid's lair refill station,8F:8A46,078A46,B6DF,,7,10,002F,078A4C,Energy station
+; Room $A66A. Tourian entrance,8F:8A54,078A54,C848,,1,6,9448,078A54,Door. Grey door facing right
+; Room $A6A1. Kraid's lair entrance,8F:8A5C,078A5C,B703,,7,12,A6D6,078A5C,Scroll PLM
+; Room $A6A1. Kraid's lair entrance,8F:8A5C,078A5C,B63B,,8,12,8000,078A62,Rightwards extension
+; Room $A6A1. Kraid's lair entrance,8F:8A5C,078A5C,B703,,16,9,A6D9,078A68,Scroll PLM
+; Room $A6A1. Kraid's lair entrance,8F:8A5C,078A5C,B647,,16,8,8000,078A6E,Upwards extension
+; Room $A6A1. Kraid's lair entrance,8F:8A5C,078A5C,B647,,16,7,8000,078A74,Upwards extension
+; Room $A6A1. Kraid's lair entrance,8F:8A5C,078A5C,B703,,18,9,A6DC,078A7A,Scroll PLM
+; Room $A6A1. Kraid's lair entrance,8F:8A5C,078A5C,B647,,18,8,8000,078A80,Upwards extension
+; Room $A6A1. Kraid's lair entrance,8F:8A5C,078A5C,B647,,18,7,8000,078A86,Upwards extension
+; Room $A6A1. Kraid's lair entrance,8F:8A5C,078A5C,B647,,18,6,8000,078A8C,Upwards extension
+; Room $A6A1. Kraid's lair entrance,8F:8A5C,078A5C,B703,,19,11,A6DF,078A92,Scroll PLM
+; Room $A6A1. Kraid's lair entrance,8F:8A5C,078A5C,B63B,,20,11,8000,078A98,Rightwards extension
+; Room $A6A1. Kraid's lair entrance,8F:8A5C,078A5C,B647,,20,10,8000,078A9E,Upwards extension
+; Room $A6A1. Kraid's lair entrance,8F:8A5C,078A5C,B647,,20,9,8000,078AA4,Upwards extension
+; Room $A6A1. Kraid's lair entrance,8F:8A5C,078A5C,B647,,20,8,8000,078AAA,Upwards extension
+; Room $A6A1. Kraid's lair entrance,8F:8A5C,078A5C,B647,,20,7,8000,078AB0,Upwards extension
+; Room $A6A1. Kraid's lair entrance,8F:8A5C,078A5C,B647,,20,6,8000,078AB6,Upwards extension
+; Room $A6A1. Kraid's lair entrance,8F:8A5C,078A5C,B647,,20,5,8000,078ABC,Upwards extension
+; Room $A6A1. Kraid's lair entrance,8F:8A5C,078A5C,B647,,20,4,8000,078AC2,Upwards extension
+; Room $A6E2. Varia suit room,8F:8ACA,078ACA,EF5B,,7,9,0030,078ACA,"Varia suit, chozo orb"
+; Room $A70B. Kraid's lair save station,8F:8AD2,078AD2,B76F,,7,11,0003,078AD2,Save station
+; Room $A734. Red Brinstar save station,8F:8ADA,078ADA,B76F,,7,11,0004,078ADA,Save station
+; Room $A75D. Ice beam tripper hall,8F:8AE2,078AE2,C872,,46,22,0049,078AFA,Door. Green door facing left
+; Room $A788. Lava missile room,8F:8AE4,078AE4,EF83,,34,28,0031,078AE4,"Missile tank, shot block"
+; Room $A788. Lava missile room,8F:8AE4,078AE4,C872,,46,22,0049,078AEA,Door. Green door facing left
+; Room $A7B3. First hot room,8F:8AF2,078AF2,C88A,,46,6,004A,078AF2,Door. Red door facing left
+; Room $A7DE. Norfair mainstreet,8F:8AFA,078AFA,B70B,,6,44,8000,078AFA,Elevator platform
+; Room $A7DE. Norfair mainstreet,8F:8AFA,078AFA,C878,,1,54,004B,078B00,Door. Green door facing right
+; Room $A7DE. Norfair mainstreet,8F:8AFA,078AFA,C860,,1,70,004C,078B06,Door. Yellow door facing right
+; Room $A7DE. Norfair mainstreet,8F:8AFA,078AFA,C890,,1,86,004D,078B0C,Door. Red door facing right
+; Room $A815. Ice beam mockball hall,8F:8B14,078B14,B703,,55,45,A860,078B14,Scroll PLM
+; Room $A815. Ice beam mockball hall,8F:8B14,078B14,B63B,,56,45,8000,078B1A,Rightwards extension
+; Room $A890. Ice beam room,8F:8B24,078B24,EF43,,12,7,0032,078B24,"Ice beam, chozo orb"
+; Room $A8B9. Pre ice beam shaft,8F:8B2C,078B2C,B703,,15,23,A8EC,078B2C,Scroll PLM
+; Room $A8B9. Pre ice beam shaft,8F:8B2C,078B2C,B703,,13,23,A8EF,078B32,Scroll PLM
+; Room $A8B9. Pre ice beam shaft,8F:8B2C,078B2C,B703,,17,23,A8F2,078B38,Scroll PLM
+; Room $A8B9. Pre ice beam shaft,8F:8B2C,078B2C,B703,,19,23,A8F5,078B3E,Scroll PLM
+; Room $A8F8. Crumble block platform shaft,8F:8B46,078B46,EF83,,1,8,0033,078B46,"Missile tank, shot block"
+; Room $A923. Norfair slope,8F:8B4E,078B4E,B703,,158,40,A980,078B4E,Scroll PLM
+; Room $A923. Norfair slope,8F:8B4E,078B4E,B647,,158,39,8000,078B54,Upwards extension
+; Room $A923. Norfair slope,8F:8B4E,078B4E,B647,,158,38,8000,078B5A,Upwards extension
+; Room $A923. Norfair slope,8F:8B4E,078B4E,B647,,158,37,8000,078B60,Upwards extension
+; Room $A923. Norfair slope,8F:8B4E,078B4E,B647,,158,36,8000,078B66,Upwards extension
+; Room $A923. Norfair slope,8F:8B4E,078B4E,B703,,190,41,A987,078B6C,Scroll PLM
+; Room $A923. Norfair slope,8F:8B4E,078B4E,B647,,190,40,8000,078B72,Upwards extension
+; Room $A923. Norfair slope,8F:8B4E,078B4E,B647,,190,39,8000,078B78,Upwards extension
+; Room $A923. Norfair slope,8F:8B4E,078B4E,B703,,194,41,A98A,078B7E,Scroll PLM
+; Room $A923. Norfair slope,8F:8B4E,078B4E,B647,,194,40,8000,078B84,Upwards extension
+; Room $A923. Norfair slope,8F:8B4E,078B4E,B647,,194,39,8000,078B8A,Upwards extension
+; Room $A923. Norfair slope,8F:8B4E,078B4E,B647,,194,38,8000,078B90,Upwards extension
+; Room $A923. Norfair slope,8F:8B4E,078B4E,C87E,,198,45,004E,078B96,Door. Green door facing up
+; Room $A98D. Crocomire,8F:8B9E,078B9E,C854,,54,2,044F,078B9E,Door. Grey door facing down
+; Room $A98D. Crocomire,8F:8B9E,078B9E,EED7,,125,6,0034,078BA4,Energy tank
+; Room $A9E5. Hi-jump room,8F:8BAC,078BAC,EF47,,3,10,0035,078BAC,"Hi-jump, chozo orb"
+; Room $AA0E. Norfair grapple ceiling room,8F:8BB4,078BB4,C82A,,6,5,8000,078BB4,Downwards closed gate
+; Room $AA0E. Norfair grapple ceiling room,8F:8BB4,078BB4,C836,,6,5,000A,078BBA,Downwards gate shotblock
+; Room $AA0E. Norfair grapple ceiling room,8F:8BB4,078BB4,EEDB,,13,9,0036,078BC0,Missile tank
+; Room $AA41. Pre hi-jump room,8F:8BC8,078BC8,B703,,16,12,AA75,078BC8,Scroll PLM
+; Room $AA41. Pre hi-jump room,8F:8BC8,078BC8,B703,,15,5,AA70,078BCE,Scroll PLM
+; Room $AA41. Pre hi-jump room,8F:8BC8,078BC8,B703,,8,28,AA7C,078BD4,Scroll PLM
+; Room $AA41. Pre hi-jump room,8F:8BC8,078BC8,B703,,11,18,AA7F,078BDA,Scroll PLM
+; Room $AA41. Pre hi-jump room,8F:8BC8,078BC8,C842,,30,6,0C50,078BE0,Door. Grey door facing left
+; Room $AA41. Pre hi-jump room,8F:8BC8,078BC8,EEDB,,9,6,0037,078BE6,Missile tank
+; Room $AA41. Pre hi-jump room,8F:8BC8,078BC8,EED7,,23,8,0038,078BEC,Energy tank
+; Room $AA82. Post Crocomire room,8F:8BF4,078BF4,C890,,1,6,0051,078BF4,Door. Red door facing right
+; Room $AAB5. Post Crocomire save station,8F:8BFC,078BFC,B76F,,7,11,0000,078BFC,Save station
+; Room $AADE. Post Crocomire power bombs room,8F:8C04,078C04,EEE3,,7,8,0039,078C04,Power bomb tank
+; Room $AB07. Post Crocomire shaft,8F:8C0C,078C0C,C88A,,14,54,0052,078C0C,Door. Red door facing left
+; Room $AB3B. Post Crocomire tidal acid cave,8F:8C14,078C14,EEDB,,60,9,003A,078C14,Missile tank
+; Room $AB64. Double lake grapple practice room,8F:8C1C,078C1C,C82A,,42,5,8000,078C1C,Downwards closed gate
+; Room $AB64. Double lake grapple practice room,8F:8C1C,078C1C,C836,,42,5,0008,078C22,Downwards gate shotblock
+; Room $AB8F. Huge jump room,8F:8C2A,078C2A,EEDB,,67,9,003B,078C2A,Missile tank
+; Room $AC2B. Grapple room,8F:8C36,078C36,EF6B,,4,39,003C,078C36,"Grapple beam, chozo orb"
+; Room $AC5A. Bubble Norfair reserve tank room,8F:8C3E,078C3E,EF7B,,2,7,003D,078C3E,"Reserve tank, chozo orb"
+; Room $AC5A. Bubble Norfair reserve tank room,8F:8C3E,078C3E,EF83,,7,11,003E,078C44,"Missile tank, shot block"
+; Room $AC83. Pre Bubble Norfair reserve tank room,8F:8C4C,078C4C,B703,,16,5,ACB0,078C4C,Scroll PLM
+; Room $AC83. Pre Bubble Norfair reserve tank room,8F:8C4C,078C4C,EEDB,,20,10,003F,078C52,Missile tank
+; Room $ACB3. Bubble Norfair mainstreet,8F:8C5A,078C5A,C878,,1,6,0053,078C5A,Door. Green door facing right
+; Room $ACB3. Bubble Norfair mainstreet,8F:8C5A,078C5A,C872,,30,6,0054,078C60,Door. Green door facing left
+; Room $ACB3. Bubble Norfair mainstreet,8F:8C5A,078C5A,EEDB,,20,60,0040,078C66,Missile tank
+; Room $ACF0. Speed booster lavaquake,8F:8C6E,078C6E,B8AC,,0,0,8000,078C6E,Speed booster escape
+; Room $ACF0. Speed booster lavaquake,8F:8C6E,078C6E,EF83,,188,19,0041,078C74,"Missile tank, shot block"
+; Room $ACF0. Speed booster lavaquake,8F:8C6E,078C6E,C88A,,190,22,0055,078C7A,Door. Red door facing left
+; Room $AD1B. Speed booster room,8F:8C82,078C82,EF4B,,11,6,0042,078C82,"Speed booster, chozo orb"
+; Room $AD5E. Alcoon shaft,8F:8C8A,078C8A,B703,,13,8,ADA7,078C8A,Scroll PLM
+; Room $AD5E. Alcoon shaft,8F:8C8A,078C8A,B703,,16,8,ADAA,078C90,Scroll PLM
+; Room $AD5E. Alcoon shaft,8F:8C8A,078C8A,B647,,77,10,8000,078C96,Upwards extension
+; Room $AD5E. Alcoon shaft,8F:8C8A,078C8A,B647,,77,11,8000,078C9C,Upwards extension
+; Room $AD5E. Alcoon shaft,8F:8C8A,078C8A,B703,,77,12,ADAA,078CA2,Scroll PLM
+; Room $AD5E. Alcoon shaft,8F:8C8A,078C8A,C88A,,14,22,0056,078CA8,Door. Red door facing left
+; Room $ADAD. Pre wave beam room,8F:8CB0,078CB0,C82A,,26,5,8000,078CB0,Downwards closed gate
+; Room $ADAD. Pre wave beam room,8F:8CB0,078CB0,C836,,26,5,0000,078CB6,Downwards gate shotblock
+; Room $ADAD. Pre wave beam room,8F:8CB0,078CB0,EEDB,,31,9,0043,078CBC,Missile tank
+; Room $ADAD. Pre wave beam room,8F:8CB0,078CB0,C88A,,62,6,0057,078CC2,Door. Red door facing left
+; Room $ADDE. Wave beam room,8F:8CCA,078CCA,EF4F,,11,6,0044,078CCA,"Wave beam, chozo orb"
+; Room $AE07. Norfair sinking tripper hall,8F:8CD2,078CD2,B703,,31,41,AE6B,078CEA,Scroll PLM
+; Room $AE07. Norfair sinking tripper hall,8F:8CD2,078CD2,B647,,25,36,8000,078CF0,Upwards extension
+; Room $AE07. Norfair sinking tripper hall,8F:8CD2,078CD2,B647,,25,37,8000,078CF6,Upwards extension
+; Room $AE07. Norfair sinking tripper hall,8F:8CD2,078CD2,B647,,25,38,8000,078CFC,Upwards extension
+; Room $AE07. Norfair sinking tripper hall,8F:8CD2,078CD2,B647,,25,39,8000,078D02,Upwards extension
+; Room $AE07. Norfair sinking tripper hall,8F:8CD2,078CD2,B647,,25,40,8000,078D08,Upwards extension
+; Room $AE07. Norfair sinking tripper hall,8F:8CD2,078CD2,B703,,25,41,AE6E,078D0E,Scroll PLM
+; Room $AE07. Norfair sinking tripper hall,8F:8CD2,078CD2,B647,,38,38,8000,078D14,Upwards extension
+; Room $AE07. Norfair sinking tripper hall,8F:8CD2,078CD2,B647,,38,39,8000,078D1A,Upwards extension
+; Room $AE07. Norfair sinking tripper hall,8F:8CD2,078CD2,B647,,38,40,8000,078D20,Upwards extension
+; Room $AE07. Norfair sinking tripper hall,8F:8CD2,078CD2,B703,,38,41,AE71,078D26,Scroll PLM
+; Room $AE32. Volcano room,8F:8CD4,078CD4,B703,,32,41,AE66,078CD4,Scroll PLM
+; Room $AE32. Volcano room,8F:8CD4,078CD4,B703,,31,41,AE6B,078CDA,Scroll PLM
+; Room $AE32. Volcano room,8F:8CD4,078CD4,B647,,25,36,8000,078CE0,Upwards extension
+; Room $AE32. Volcano room,8F:8CD4,078CD4,B647,,25,37,8000,078CE6,Upwards extension
+; Room $AE32. Volcano room,8F:8CD4,078CD4,B647,,25,38,8000,078CEC,Upwards extension
+; Room $AE32. Volcano room,8F:8CD4,078CD4,B647,,25,39,8000,078CF2,Upwards extension
+; Room $AE32. Volcano room,8F:8CD4,078CD4,B647,,25,40,8000,078CF8,Upwards extension
+; Room $AE32. Volcano room,8F:8CD4,078CD4,B703,,25,41,AE6E,078CFE,Scroll PLM
+; Room $AE32. Volcano room,8F:8CD4,078CD4,B647,,38,38,8000,078D04,Upwards extension
+; Room $AE32. Volcano room,8F:8CD4,078CD4,B647,,38,39,8000,078D0A,Upwards extension
+; Room $AE32. Volcano room,8F:8CD4,078CD4,B647,,38,40,8000,078D10,Upwards extension
+; Room $AE32. Volcano room,8F:8CD4,078CD4,B703,,38,41,AE71,078D16,Scroll PLM
+; Room $AE74. Pre lava dive shaft,8F:8D1E,078D1E,B703,,15,23,AEA9,078D1E,Scroll PLM
+; Room $AE74. Pre lava dive shaft,8F:8D1E,078D1E,B703,,17,23,AEAC,078D24,Scroll PLM
+; Room $AE74. Pre lava dive shaft,8F:8D1E,078D1E,B647,,8,21,8000,078D2A,Upwards extension
+; Room $AE74. Pre lava dive shaft,8F:8D1E,078D1E,B647,,8,22,8000,078D30,Upwards extension
+; Room $AE74. Pre lava dive shaft,8F:8D1E,078D1E,B647,,8,23,8000,078D36,Upwards extension
+; Room $AE74. Pre lava dive shaft,8F:8D1E,078D1E,B703,,8,24,AEB1,078D3C,Scroll PLM
+; Room $AE74. Pre lava dive shaft,8F:8D1E,078D1E,C82A,,7,20,8000,078D42,Downwards closed gate
+; Room $AE74. Pre lava dive shaft,8F:8D1E,078D1E,C836,,7,20,0000,078D48,Downwards gate shotblock
+; Room $AE74. Pre lava dive shaft,8F:8D1E,078D1E,C860,,17,38,0058,078D4E,Door. Yellow door facing right
+; Room $AEB4. Magdollite multiviola hall,8F:8D56,078D56,B63B,,3,11,8000,078D6E,Rightwards extension
+; Room $AEB4. Magdollite multiviola hall,8F:8D56,078D56,B63B,,4,11,8000,078D74,Rightwards extension
+; Room $AEB4. Magdollite multiviola hall,8F:8D56,078D56,B703,,11,11,AF0F,078D7A,Scroll PLM
+; Room $AEB4. Magdollite multiviola hall,8F:8D56,078D56,B63B,,12,11,8000,078D80,Rightwards extension
+; Room $AEB4. Magdollite multiviola hall,8F:8D56,078D56,B63B,,13,11,8000,078D86,Rightwards extension
+; Room $AEDF. Purple shaft,8F:8D58,078D58,B703,,2,11,AF0F,078D58,Scroll PLM
+; Room $AEDF. Purple shaft,8F:8D58,078D58,B63B,,3,11,8000,078D5E,Rightwards extension
+; Room $AEDF. Purple shaft,8F:8D58,078D58,B63B,,4,11,8000,078D64,Rightwards extension
+; Room $AEDF. Purple shaft,8F:8D58,078D58,B703,,11,11,AF0F,078D6A,Scroll PLM
+; Room $AEDF. Purple shaft,8F:8D58,078D58,B63B,,12,11,8000,078D70,Rightwards extension
+; Room $AEDF. Purple shaft,8F:8D58,078D58,B63B,,13,11,8000,078D76,Rightwards extension
+; Room $AF3F. Norfair -> Lower Norfair elevator,8F:8D80,078D80,B703,,8,11,AF6F,078D80,Scroll PLM
+; Room $AF72. Norfair wave gate room,8F:8D88,078D88,C82A,,6,21,8000,078D88,Downwards closed gate
+; Room $AF72. Norfair wave gate room,8F:8D88,078D88,C836,,6,21,0000,078D8E,Downwards gate shotblock
+; Room $B026. Norfair energy station,8F:8D9C,078D9C,B6DF,,7,10,0045,078D9C,Energy station
+; Room $B051. Purple farming room,8F:8DA4,078DA4,B63B,,10,12,8000,078DBC,Rightwards extension
+; Room $B051. Purple farming room,8F:8DA4,078DA4,B703,,9,16,B0AC,078DC2,Scroll PLM
+; Room $B051. Purple farming room,8F:8DA4,078DA4,B63B,,10,16,8000,078DC8,Rightwards extension
+; Room $B051. Purple farming room,8F:8DA4,078DA4,B703,,6,19,B0B1,078DCE,Scroll PLM
+; Room $B051. Purple farming room,8F:8DA4,078DA4,B63B,,7,19,8000,078DD4,Rightwards extension
+; Room $B051. Purple farming room,8F:8DA4,078DA4,B63B,,8,19,8000,078DDA,Rightwards extension
+; Room $B051. Purple farming room,8F:8DA4,078DA4,B63B,,9,19,8000,078DE0,Rightwards extension
+; Room $B07A. Speed booster lavaquake room,8F:8DA6,078DA6,B703,,9,12,B0A7,078DA6,Scroll PLM
+; Room $B07A. Speed booster lavaquake room,8F:8DA6,078DA6,B63B,,10,12,8000,078DAC,Rightwards extension
+; Room $B07A. Speed booster lavaquake room,8F:8DA6,078DA6,B703,,9,16,B0AC,078DB2,Scroll PLM
+; Room $B07A. Speed booster lavaquake room,8F:8DA6,078DA6,B63B,,10,16,8000,078DB8,Rightwards extension
+; Room $B07A. Speed booster lavaquake room,8F:8DA6,078DA6,B703,,6,19,B0B1,078DBE,Scroll PLM
+; Room $B07A. Speed booster lavaquake room,8F:8DA6,078DA6,B63B,,7,19,8000,078DC4,Rightwards extension
+; Room $B07A. Speed booster lavaquake room,8F:8DA6,078DA6,B63B,,8,19,8000,078DCA,Rightwards extension
+; Room $B07A. Speed booster lavaquake room,8F:8DA6,078DA6,B63B,,9,19,8000,078DD0,Rightwards extension
+; Room $B0B4. Norfair map station,8F:8DD8,078DD8,B6D3,,5,10,8000,078DD8,Map station
+; Room $B0DD. Bubble Norfair save station,8F:8DE0,078DE0,B76F,,5,11,0001,078DE0,Save station
+; Room $B167. Rock Norfair save station,8F:8DEC,078DEC,B76F,,7,11,0002,078DEC,Save station
+; Room $B192. Pre Crocomire save station,8F:8DF4,078DF4,B76F,,7,11,0003,078DF4,Save station
+; Room $B1BB. Pre Lower Norfair save station,8F:8DFC,078DFC,B76F,,5,11,0004,078DFC,Save station
+; Room $B1E5. Lower Norfair chozo room,8F:8E04,078E04,B703,,12,30,B224,078E04,Scroll PLM
+; Room $B1E5. Lower Norfair chozo room,8F:8E04,078E04,B703,,12,35,B22D,078E0A,Scroll PLM
+; Room $B236. Lower Norfair mainstreet,8F:8E12,078E12,B703,,71,8,B27D,078E12,Scroll PLM
+; Room $B236. Lower Norfair mainstreet,8F:8E12,078E12,B63B,,72,8,8000,078E18,Rightwards extension
+; Room $B236. Lower Norfair mainstreet,8F:8E12,078E12,B703,,71,35,B27D,078E1E,Scroll PLM
+; Room $B236. Lower Norfair mainstreet,8F:8E12,078E12,B63B,,72,35,8000,078E24,Rightwards extension
+; Room $B236. Lower Norfair mainstreet,8F:8E12,078E12,B703,,71,41,B280,078E2A,Scroll PLM
+; Room $B236. Lower Norfair mainstreet,8F:8E12,078E12,B63B,,72,41,8000,078E30,Rightwards extension
+; Room $B236. Lower Norfair mainstreet,8F:8E12,078E12,B70B,,70,42,8000,078E36,Elevator platform
+; Room $B283. Golden Torizo,8F:8E3E,078E3E,B703,,4,12,B2D1,078E3E,Scroll PLM
+; Room $B283. Golden Torizo,8F:8E3E,078E3E,B63B,,5,12,8000,078E44,Rightwards extension
+; Room $B283. Golden Torizo,8F:8E3E,078E3E,B63B,,6,12,8000,078E4A,Rightwards extension
+; Room $B283. Golden Torizo,8F:8E3E,078E3E,B63B,,7,12,8000,078E50,Rightwards extension
+; Room $B283. Golden Torizo,8F:8E3E,078E3E,B63B,,8,12,8000,078E56,Rightwards extension
+; Room $B283. Golden Torizo,8F:8E3E,078E3E,B63B,,9,12,8000,078E5C,Rightwards extension
+; Room $B283. Golden Torizo,8F:8E3E,078E3E,B63B,,10,12,8000,078E62,Rightwards extension
+; Room $B283. Golden Torizo,8F:8E3E,078E3E,B63B,,11,12,8000,078E68,Rightwards extension
+; Room $B283. Golden Torizo,8F:8E3E,078E3E,EEDB,,13,8,0046,078E6E,Missile tank
+; Room $B283. Golden Torizo,8F:8E3E,078E3E,EF87,,21,8,0047,078E74,"Super missile tank, shot block"
+; Room $B283. Golden Torizo,8F:8E3E,078E3E,C842,,30,22,0859,078E7A,Door. Grey door facing left
+; Room $B2DA. Ripper ii room,8F:8E82,078E82,C82A,,52,5,8000,078E82,Downwards closed gate
+; Room $B2DA. Ripper ii room,8F:8E82,078E82,C836,,52,5,0008,078E88,Downwards gate shotblock
+; Room $B305. Lower Norfair energy station,8F:8E90,078E90,B6DF,,8,10,0048,078E90,Energy station
+; Room $B32E. Ridley,8F:8E98,078E98,C842,,14,6,005A,078E98,Door. Grey door facing left
+; Room $B32E. Ridley,8F:8E98,078E98,C848,,1,22,005B,078E9E,Door. Grey door facing right
+; Room $B37A. Pre Ridley hall,8F:8EA6,078EA6,DB4C,,1,6,005C,078EA6,"Door. Eye door, facing right"
+; Room $B37A. Pre Ridley hall,8F:8EA6,078EA6,DB52,,1,9,005C,078EAC,"Eye door bottom, facing right"
+; Room $B37A. Pre Ridley hall,8F:8EA6,078EA6,DB48,,1,7,005C,078EB2,"Eye door eye, facing right"
+; Room $B3A5. Pre pillars hall,8F:8EBA,078EBA,B703,,7,33,B3D9,078EBA,Scroll PLM
+; Room $B3A5. Pre pillars hall,8F:8EBA,078EBA,B63B,,8,33,8000,078EC0,Rightwards extension
+; Room $B3A5. Pre pillars hall,8F:8EBA,078EBA,B703,,7,27,B3DC,078EC6,Scroll PLM
+; Room $B3A5. Pre pillars hall,8F:8EBA,078EBA,B63B,,8,27,8000,078ECC,Rightwards extension
+; Room $B3E1. Unused room,8F:8ED4,078ED4,B703,,50,22,B448,078EEC,Scroll PLM
+; Room $B3E1. Unused room,8F:8ED4,078ED4,B703,,45,22,B44B,078EF2,Scroll PLM
+; Room $B3E1. Unused room,8F:8ED4,078ED4,B647,,43,20,8000,078EF8,Upwards extension
+; Room $B3E1. Unused room,8F:8ED4,078ED4,B647,,43,21,8000,078EFE,Upwards extension
+; Room $B3E1. Unused room,8F:8ED4,078ED4,B647,,43,22,8000,078F04,Upwards extension
+; Room $B3E1. Unused room,8F:8ED4,078ED4,B703,,43,23,B44E,078F0A,Scroll PLM
+; Room $B3E1. Unused room,8F:8ED4,078ED4,B647,,56,54,8000,078F10,Upwards extension
+; Room $B3E1. Unused room,8F:8ED4,078ED4,B647,,56,55,8000,078F16,Upwards extension
+; Room $B3E1. Unused room,8F:8ED4,078ED4,B647,,56,56,8000,078F1C,Upwards extension
+; Room $B3E1. Unused room,8F:8ED4,078ED4,B703,,56,57,B451,078F22,Scroll PLM
+; Room $B3E1. Unused room,8F:8ED4,078ED4,B63B,,61,52,8000,078F28,Rightwards extension
+; Room $B3E1. Unused room,8F:8ED4,078ED4,B63B,,60,52,8000,078F2E,Rightwards extension
+; Room $B3E1. Unused room,8F:8ED4,078ED4,B703,,59,52,B454,078F34,Scroll PLM
+; Room $B3E1. Unused room,8F:8ED4,078ED4,C848,,1,54,0C5D,078F3A,Door. Grey door facing right
+; Room $B3E1. Unused room,8F:8ED4,078ED4,EEDB,,39,27,0049,078F40,Missile tank
+; Room $B40A. Lower Norfair multi-level one-way shaft,8F:8ED6,078ED6,B703,,48,22,B445,078ED6,Scroll PLM
+; Room $B40A. Lower Norfair multi-level one-way shaft,8F:8ED6,078ED6,B703,,50,22,B448,078EDC,Scroll PLM
+; Room $B40A. Lower Norfair multi-level one-way shaft,8F:8ED6,078ED6,B703,,45,22,B44B,078EE2,Scroll PLM
+; Room $B40A. Lower Norfair multi-level one-way shaft,8F:8ED6,078ED6,B647,,43,20,8000,078EE8,Upwards extension
+; Room $B40A. Lower Norfair multi-level one-way shaft,8F:8ED6,078ED6,B647,,43,21,8000,078EEE,Upwards extension
+; Room $B40A. Lower Norfair multi-level one-way shaft,8F:8ED6,078ED6,B647,,43,22,8000,078EF4,Upwards extension
+; Room $B40A. Lower Norfair multi-level one-way shaft,8F:8ED6,078ED6,B703,,43,23,B44E,078EFA,Scroll PLM
+; Room $B40A. Lower Norfair multi-level one-way shaft,8F:8ED6,078ED6,B647,,56,54,8000,078F00,Upwards extension
+; Room $B40A. Lower Norfair multi-level one-way shaft,8F:8ED6,078ED6,B647,,56,55,8000,078F06,Upwards extension
+; Room $B40A. Lower Norfair multi-level one-way shaft,8F:8ED6,078ED6,B647,,56,56,8000,078F0C,Upwards extension
+; Room $B40A. Lower Norfair multi-level one-way shaft,8F:8ED6,078ED6,B703,,56,57,B451,078F12,Scroll PLM
+; Room $B40A. Lower Norfair multi-level one-way shaft,8F:8ED6,078ED6,B63B,,61,52,8000,078F18,Rightwards extension
+; Room $B40A. Lower Norfair multi-level one-way shaft,8F:8ED6,078ED6,B63B,,60,52,8000,078F1E,Rightwards extension
+; Room $B40A. Lower Norfair multi-level one-way shaft,8F:8ED6,078ED6,B703,,59,52,B454,078F24,Scroll PLM
+; Room $B40A. Lower Norfair multi-level one-way shaft,8F:8ED6,078ED6,C848,,1,54,0C5D,078F2A,Door. Grey door facing right
+; Room $B40A. Lower Norfair multi-level one-way shaft,8F:8ED6,078ED6,EEDB,,39,27,0049,078F30,Missile tank
+; Room $B457. Pillars hall,8F:8F38,078F38,B63B,,4,16,8000,078F62,Rightwards extension
+; Room $B457. Pillars hall,8F:8F38,078F38,B63B,,5,16,8000,078F68,Rightwards extension
+; Room $B457. Pillars hall,8F:8F38,078F38,B63B,,6,16,8000,078F6E,Rightwards extension
+; Room $B457. Pillars hall,8F:8F38,078F38,B63B,,7,16,8000,078F74,Rightwards extension
+; Room $B457. Pillars hall,8F:8F38,078F38,B63B,,8,16,8000,078F7A,Rightwards extension
+; Room $B457. Pillars hall,8F:8F38,078F38,B63B,,9,16,8000,078F80,Rightwards extension
+; Room $B457. Pillars hall,8F:8F38,078F38,B63B,,10,16,8000,078F86,Rightwards extension
+; Room $B457. Pillars hall,8F:8F38,078F38,B63B,,11,16,8000,078F8C,Rightwards extension
+; Room $B457. Pillars hall,8F:8F38,078F38,B63B,,12,16,8000,078F92,Rightwards extension
+; Room $B482. Lower Norfair holtz room,8F:8F3A,078F3A,B63B,,4,16,8000,078F52,Rightwards extension
+; Room $B482. Lower Norfair holtz room,8F:8F3A,078F3A,B63B,,5,16,8000,078F58,Rightwards extension
+; Room $B482. Lower Norfair holtz room,8F:8F3A,078F3A,B63B,,6,16,8000,078F5E,Rightwards extension
+; Room $B482. Lower Norfair holtz room,8F:8F3A,078F3A,B63B,,7,16,8000,078F64,Rightwards extension
+; Room $B482. Lower Norfair holtz room,8F:8F3A,078F3A,B63B,,8,16,8000,078F6A,Rightwards extension
+; Room $B482. Lower Norfair holtz room,8F:8F3A,078F3A,B63B,,9,16,8000,078F70,Rightwards extension
+; Room $B482. Lower Norfair holtz room,8F:8F3A,078F3A,B63B,,10,16,8000,078F76,Rightwards extension
+; Room $B482. Lower Norfair holtz room,8F:8F3A,078F3A,B63B,,11,16,8000,078F7C,Rightwards extension
+; Room $B482. Lower Norfair holtz room,8F:8F3A,078F3A,B63B,,12,16,8000,078F82,Rightwards extension
+; Room $B4AD. Lower Norfair wall space pirates shaft,8F:8F3C,078F3C,B703,,3,16,B4E0,078F3C,Scroll PLM
+; Room $B4AD. Lower Norfair wall space pirates shaft,8F:8F3C,078F3C,B63B,,4,16,8000,078F42,Rightwards extension
+; Room $B4AD. Lower Norfair wall space pirates shaft,8F:8F3C,078F3C,B63B,,5,16,8000,078F48,Rightwards extension
+; Room $B4AD. Lower Norfair wall space pirates shaft,8F:8F3C,078F3C,B63B,,6,16,8000,078F4E,Rightwards extension
+; Room $B4AD. Lower Norfair wall space pirates shaft,8F:8F3C,078F3C,B63B,,7,16,8000,078F54,Rightwards extension
+; Room $B4AD. Lower Norfair wall space pirates shaft,8F:8F3C,078F3C,B63B,,8,16,8000,078F5A,Rightwards extension
+; Room $B4AD. Lower Norfair wall space pirates shaft,8F:8F3C,078F3C,B63B,,9,16,8000,078F60,Rightwards extension
+; Room $B4AD. Lower Norfair wall space pirates shaft,8F:8F3C,078F3C,B63B,,10,16,8000,078F66,Rightwards extension
+; Room $B4AD. Lower Norfair wall space pirates shaft,8F:8F3C,078F3C,B63B,,11,16,8000,078F6C,Rightwards extension
+; Room $B4AD. Lower Norfair wall space pirates shaft,8F:8F3C,078F3C,B63B,,12,16,8000,078F72,Rightwards extension
+; Room $B4E5. Lower Norfair rising acid room,8F:8F7A,078F7A,B647,,12,8,8000,078F92,Upwards extension
+; Room $B4E5. Lower Norfair rising acid room,8F:8F7A,078F7A,B647,,12,7,8000,078F98,Upwards extension
+; Room $B4E5. Lower Norfair rising acid room,8F:8F7A,078F7A,B647,,12,6,8000,078F9E,Upwards extension
+; Room $B4E5. Lower Norfair rising acid room,8F:8F7A,078F7A,B703,,3,18,B54E,078FA4,Scroll PLM
+; Room $B4E5. Lower Norfair rising acid room,8F:8F7A,078F7A,B63B,,4,18,8000,078FAA,Rightwards extension
+; Room $B4E5. Lower Norfair rising acid room,8F:8F7A,078F7A,B63B,,5,18,8000,078FB0,Rightwards extension
+; Room $B4E5. Lower Norfair rising acid room,8F:8F7A,078F7A,B63B,,6,18,8000,078FB6,Rightwards extension
+; Room $B4E5. Lower Norfair rising acid room,8F:8F7A,078F7A,B63B,,7,18,8000,078FBC,Rightwards extension
+; Room $B4E5. Lower Norfair rising acid room,8F:8F7A,078F7A,B63B,,8,18,8000,078FC2,Rightwards extension
+; Room $B4E5. Lower Norfair rising acid room,8F:8F7A,078F7A,B63B,,9,18,8000,078FC8,Rightwards extension
+; Room $B4E5. Lower Norfair rising acid room,8F:8F7A,078F7A,B63B,,10,18,8000,078FCE,Rightwards extension
+; Room $B4E5. Lower Norfair rising acid room,8F:8F7A,078F7A,B703,,47,3,B555,078FD4,Scroll PLM
+; Room $B4E5. Lower Norfair rising acid room,8F:8F7A,078F7A,EEDB,,43,7,004A,078FDA,Missile tank
+; Room $B510. Lower Norfair spring ball maze room,8F:8F7C,078F7C,B703,,12,9,B547,078F7C,Scroll PLM
+; Room $B510. Lower Norfair spring ball maze room,8F:8F7C,078F7C,B647,,12,8,8000,078F82,Upwards extension
+; Room $B510. Lower Norfair spring ball maze room,8F:8F7C,078F7C,B647,,12,7,8000,078F88,Upwards extension
+; Room $B510. Lower Norfair spring ball maze room,8F:8F7C,078F7C,B647,,12,6,8000,078F8E,Upwards extension
+; Room $B510. Lower Norfair spring ball maze room,8F:8F7C,078F7C,B703,,3,18,B54E,078F94,Scroll PLM
+; Room $B510. Lower Norfair spring ball maze room,8F:8F7C,078F7C,B63B,,4,18,8000,078F9A,Rightwards extension
+; Room $B510. Lower Norfair spring ball maze room,8F:8F7C,078F7C,B63B,,5,18,8000,078FA0,Rightwards extension
+; Room $B510. Lower Norfair spring ball maze room,8F:8F7C,078F7C,B63B,,6,18,8000,078FA6,Rightwards extension
+; Room $B510. Lower Norfair spring ball maze room,8F:8F7C,078F7C,B63B,,7,18,8000,078FAC,Rightwards extension
+; Room $B510. Lower Norfair spring ball maze room,8F:8F7C,078F7C,B63B,,8,18,8000,078FB2,Rightwards extension
+; Room $B510. Lower Norfair spring ball maze room,8F:8F7C,078F7C,B63B,,9,18,8000,078FB8,Rightwards extension
+; Room $B510. Lower Norfair spring ball maze room,8F:8F7C,078F7C,B63B,,10,18,8000,078FBE,Rightwards extension
+; Room $B510. Lower Norfair spring ball maze room,8F:8F7C,078F7C,B703,,47,3,B555,078FC4,Scroll PLM
+; Room $B510. Lower Norfair spring ball maze room,8F:8F7C,078F7C,EEDB,,43,7,004A,078FCA,Missile tank
+; Room $B55A. Lower Norfair escape power bomb room,8F:8FD2,078FD2,EEE3,,12,8,004B,078FD2,Power bomb tank
+; Room $B585. Lower Norfair south kihunter shaft,8F:8FDA,078FDA,B703,,17,72,B5C3,078FDA,Scroll PLM
+; Room $B585. Lower Norfair south kihunter shaft,8F:8FDA,078FDA,B63B,,9,70,8000,078FE0,Rightwards extension
+; Room $B585. Lower Norfair south kihunter shaft,8F:8FDA,078FDA,B647,,8,70,8000,078FE6,Upwards extension
+; Room $B585. Lower Norfair south kihunter shaft,8F:8FDA,078FDA,B703,,8,71,B5C8,078FEC,Scroll PLM
+; Room $B585. Lower Norfair south kihunter shaft,8F:8FDA,078FDA,B703,,31,72,B5C3,078FF2,Scroll PLM
+; Room $B585. Lower Norfair south kihunter shaft,8F:8FDA,078FDA,B703,,36,72,B5C8,078FF8,Scroll PLM
+; Room $B585. Lower Norfair south kihunter shaft,8F:8FDA,078FDA,B703,,6,14,B5CD,078FFE,Scroll PLM
+; Room $B585. Lower Norfair south kihunter shaft,8F:8FDA,078FDA,B63B,,7,14,8000,079004,Rightwards extension
+; Room $B585. Lower Norfair south kihunter shaft,8F:8FDA,078FDA,B63B,,8,14,8000,07900A,Rightwards extension
+; Room $B585. Lower Norfair south kihunter shaft,8F:8FDA,078FDA,B63B,,9,14,8000,079010,Rightwards extension
+; Room $B585. Lower Norfair south kihunter shaft,8F:8FDA,078FDA,B703,,6,11,B5D2,079016,Scroll PLM
+; Room $B585. Lower Norfair south kihunter shaft,8F:8FDA,078FDA,B63B,,7,11,8000,07901C,Rightwards extension
+; Room $B585. Lower Norfair south kihunter shaft,8F:8FDA,078FDA,B63B,,8,11,8000,079022,Rightwards extension
+; Room $B585. Lower Norfair south kihunter shaft,8F:8FDA,078FDA,B63B,,9,11,8000,079028,Rightwards extension
+; Room $B585. Lower Norfair south kihunter shaft,8F:8FDA,078FDA,C866,,38,77,005E,07902E,Door. Yellow door facing up
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,B703,,23,13,B612,079036,Scroll PLM
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,B63B,,24,13,8000,07903C,Rightwards extension
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,B703,,21,8,B615,079042,Scroll PLM
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,B63B,,22,8,8000,079048,Rightwards extension
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,B63B,,23,8,8000,07904E,Rightwards extension
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,B63B,,24,8,8000,079054,Rightwards extension
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,B63B,,25,8,8000,07905A,Rightwards extension
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,B63B,,26,8,8000,079060,Rightwards extension
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,B703,,79,9,B61A,079066,Scroll PLM
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,B703,,81,9,B622,07906C,Scroll PLM
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,B703,,15,11,B61D,079072,Scroll PLM
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,B703,,60,9,B622,079078,Scroll PLM
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,B703,,63,9,B61A,07907E,Scroll PLM
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,B703,,20,7,B625,079084,Scroll PLM
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,B647,,20,6,8000,07908A,Upwards extension
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,B647,,20,5,8000,079090,Upwards extension
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,B647,,20,4,8000,079096,Upwards extension
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,B703,,9,9,B628,07909C,Scroll PLM
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,B647,,9,8,8000,0790A2,Upwards extension
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,B647,,9,7,8000,0790A8,Upwards extension
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,B647,,9,6,8000,0790AE,Upwards extension
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,B647,,9,5,8000,0790B4,Upwards extension
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,C878,,17,38,005F,0790BA,Door. Green door facing right
+; Room $B5D5. Lower Norfair spike platform room,8F:9036,079036,EEE3,,7,8,004C,0790C0,Power bomb tank
+; Room $B62B. Ninja space pirate hall,8F:90C8,0790C8,C848,,1,6,0C60,0790C8,Door. Grey door facing right
+; Room $B656. Lower Norfair north kihunter shaft,8F:90D0,0790D0,B703,,11,42,B68D,0790D0,Scroll PLM
+; Room $B656. Lower Norfair north kihunter shaft,8F:90D0,0790D0,B647,,11,41,8000,0790D6,Upwards extension
+; Room $B656. Lower Norfair north kihunter shaft,8F:90D0,0790D0,B647,,11,40,8000,0790DC,Upwards extension
+; Room $B656. Lower Norfair north kihunter shaft,8F:90D0,0790D0,B647,,11,39,8000,0790E2,Upwards extension
+; Room $B656. Lower Norfair north kihunter shaft,8F:90D0,0790D0,B647,,11,38,8000,0790E8,Upwards extension
+; Room $B656. Lower Norfair north kihunter shaft,8F:90D0,0790D0,B647,,11,37,8000,0790EE,Upwards extension
+; Room $B656. Lower Norfair north kihunter shaft,8F:90D0,0790D0,B703,,15,42,B690,0790F4,Scroll PLM
+; Room $B656. Lower Norfair north kihunter shaft,8F:90D0,0790D0,B703,,20,42,B695,0790FA,Scroll PLM
+; Room $B656. Lower Norfair north kihunter shaft,8F:90D0,0790D0,EEDB,,8,41,004D,079100,Missile tank
+; Room $B698. Ridley's energy tank,8F:9108,079108,EF7F,,14,11,004E,079108,"Energy tank, shot block"
+; Room $B6C1. Screw attack room,8F:9110,079110,EF73,,11,40,004F,079110,"Screw attack, chozo orb"
+; Room $B6EE. Norfair rolling boulder shaft,8F:9118,079118,B647,,31,54,8000,079118,Upwards extension
+; Room $B6EE. Norfair rolling boulder shaft,8F:9118,079118,B647,,31,55,8000,07911E,Upwards extension
+; Room $B6EE. Norfair rolling boulder shaft,8F:9118,079118,B703,,31,56,B72D,079124,Scroll PLM
+; Room $B6EE. Norfair rolling boulder shaft,8F:9118,079118,B63B,,45,57,8000,07912A,Rightwards extension
+; Room $B6EE. Norfair rolling boulder shaft,8F:9118,079118,B63B,,44,57,8000,079130,Rightwards extension
+; Room $B6EE. Norfair rolling boulder shaft,8F:9118,079118,B703,,43,57,B730,079136,Scroll PLM
+; Room $B6EE. Norfair rolling boulder shaft,8F:9118,079118,B647,,15,6,8000,07913C,Upwards extension
+; Room $B6EE. Norfair rolling boulder shaft,8F:9118,079118,B647,,15,7,8000,079142,Upwards extension
+; Room $B6EE. Norfair rolling boulder shaft,8F:9118,079118,B647,,15,8,8000,079148,Upwards extension
+; Room $B6EE. Norfair rolling boulder shaft,8F:9118,079118,B703,,15,9,B737,07914E,Scroll PLM
+; Room $B6EE. Norfair rolling boulder shaft,8F:9118,079118,B63B,,27,11,8000,079154,Rightwards extension
+; Room $B6EE. Norfair rolling boulder shaft,8F:9118,079118,B63B,,26,11,8000,07915A,Rightwards extension
+; Room $B6EE. Norfair rolling boulder shaft,8F:9118,079118,B63B,,25,11,8000,079160,Rightwards extension
+; Room $B6EE. Norfair rolling boulder shaft,8F:9118,079118,B63B,,24,11,8000,079166,Rightwards extension
+; Room $B6EE. Norfair rolling boulder shaft,8F:9118,079118,B63B,,23,11,8000,07916C,Rightwards extension
+; Room $B6EE. Norfair rolling boulder shaft,8F:9118,079118,B63B,,22,11,8000,079172,Rightwards extension
+; Room $B6EE. Norfair rolling boulder shaft,8F:9118,079118,B63B,,21,11,8000,079178,Rightwards extension
+; Room $B6EE. Norfair rolling boulder shaft,8F:9118,079118,B703,,20,11,B73C,07917E,Scroll PLM
+; Room $B6EE. Norfair rolling boulder shaft,8F:9118,079118,EED7,,42,81,0050,079184,Energy tank
+; Room $B741. Lower Norfair save station,8F:918C,07918C,B76F,,7,11,0005,07918C,Save station
+"; Room $C98E, state $C9A0. Wrecked Ship chozo room - default",8F:C215,07C215,B703,,31,45,C9EC,07C215,Scroll PLM
+"; Room $C98E, state $C9A0. Wrecked Ship chozo room - default",8F:C215,07C215,B647,,65,38,8000,07C21B,Upwards extension
+"; Room $C98E, state $C9A0. Wrecked Ship chozo room - default",8F:C215,07C215,B647,,65,39,8000,07C221,Upwards extension
+"; Room $C98E, state $C9A0. Wrecked Ship chozo room - default",8F:C215,07C215,B703,,65,40,C9F1,07C227,Scroll PLM
+"; Room $CA08, state $CA1A. Wrecked Ship entrance treadmill - default",8F:C22F,07C22F,C842,,110,6,0081,07C247,Door. Grey door facing left
+"; Room $CA08, state $CA1A. Wrecked Ship entrance treadmill - default",8F:C22F,07C22F,BB05,,8,8,8000,07C24D,Wrecked Ship attic
+"; Room $CA52, state $CA64. Wrecked Ship attic - default",8F:C231,07C231,C848,,1,6,0080,07C231,Door. Grey door facing right
+"; Room $CA52, state $CA64. Wrecked Ship attic - default",8F:C231,07C231,C842,,110,6,0081,07C237,Door. Grey door facing left
+"; Room $CA52, state $CA64. Wrecked Ship attic - default",8F:C231,07C231,BB05,,8,8,8000,07C23D,Wrecked Ship attic
+"; Room $CAAE, state $CAC0. Wrecked Ship attic missile tank room - default",8F:C245,07C245,B703,,81,105,CB7D,07C25D,Scroll PLM
+"; Room $CAAE, state $CAC0. Wrecked Ship attic missile tank room - default",8F:C245,07C245,B703,,65,87,CB80,07C263,Scroll PLM
+"; Room $CAAE, state $CAC0. Wrecked Ship attic missile tank room - default",8F:C245,07C245,B703,,78,105,CB83,07C269,Scroll PLM
+"; Room $CAAE, state $CAC0. Wrecked Ship attic missile tank room - default",8F:C245,07C245,B703,,71,109,CB86,07C26F,Scroll PLM
+"; Room $CAAE, state $CAC0. Wrecked Ship attic missile tank room - default",8F:C245,07C245,EEDB,,2,89,0080,07C275,Missile tank
+"; Room $CAAE, state $CAC0. Wrecked Ship attic missile tank room - default",8F:C245,07C245,C848,,65,102,0082,07C27B,Door. Grey door facing right
+"; Room $CAAE, state $CAC0. Wrecked Ship attic missile tank room - default",8F:C245,07C245,C842,,78,70,0083,07C281,Door. Grey door facing left
+"; Room $CAAE, state $CAC0. Wrecked Ship attic missile tank room - default",8F:C245,07C245,C87E,,70,125,0084,07C287,Door. Green door facing up
+; Room $CAF6. Wrecked Ship mainstreet,8F:C247,07C247,B703,,62,87,CB7A,07C247,Scroll PLM
+; Room $CAF6. Wrecked Ship mainstreet,8F:C247,07C247,B703,,81,105,CB7D,07C24D,Scroll PLM
+; Room $CAF6. Wrecked Ship mainstreet,8F:C247,07C247,B703,,65,87,CB80,07C253,Scroll PLM
+; Room $CAF6. Wrecked Ship mainstreet,8F:C247,07C247,B703,,78,105,CB83,07C259,Scroll PLM
+; Room $CAF6. Wrecked Ship mainstreet,8F:C247,07C247,B703,,71,109,CB86,07C25F,Scroll PLM
+; Room $CAF6. Wrecked Ship mainstreet,8F:C247,07C247,EEDB,,2,89,0080,07C265,Missile tank
+; Room $CAF6. Wrecked Ship mainstreet,8F:C247,07C247,C848,,65,102,0082,07C26B,Door. Grey door facing right
+; Room $CAF6. Wrecked Ship mainstreet,8F:C247,07C247,C842,,78,70,0083,07C271,Door. Grey door facing left
+; Room $CAF6. Wrecked Ship mainstreet,8F:C247,07C247,C87E,,70,125,0084,07C277,Door. Green door facing up
+"; Room $CB8B, state $CB9D. Wrecked Ship spike platform hall - default",8F:C27F,07C27F,B63B,,8,16,8000,07C297,Rightwards extension
+"; Room $CBD5, state $CBE7. Wrecked Ship east exit - default",8F:C281,07C281,B703,,7,16,CC24,07C281,Scroll PLM
+"; Room $CBD5, state $CBE7. Wrecked Ship east exit - default",8F:C281,07C281,B63B,,8,16,8000,07C287,Rightwards extension
+"; Room $CC27, state $CC39. Wrecked Ship chozo energy tank room - default",8F:C28F,07C28F,B703,,70,12,CCC5,07C2A7,Scroll PLM
+"; Room $CC27, state $CC39. Wrecked Ship chozo energy tank room - default",8F:C28F,07C28F,DB5A,,78,6,0085,07C2AD,"Door. Eye door, facing left"
+"; Room $CC27, state $CC39. Wrecked Ship chozo energy tank room - default",8F:C28F,07C28F,DB60,,78,9,0085,07C2B3,"Eye door bottom, facing left"
+"; Room $CC27, state $CC39. Wrecked Ship chozo energy tank room - default",8F:C28F,07C28F,DB56,,78,7,0085,07C2B9,"Eye door eye, facing left"
+"; Room $CC6F, state $CC81. Pre Phantoon hall - default",8F:C291,07C291,B703,,64,12,CCC0,07C291,Scroll PLM
+"; Room $CC6F, state $CC81. Pre Phantoon hall - default",8F:C291,07C291,B703,,70,12,CCC5,07C297,Scroll PLM
+"; Room $CC6F, state $CC81. Pre Phantoon hall - default",8F:C291,07C291,DB5A,,78,6,0085,07C29D,"Door. Eye door, facing left"
+"; Room $CC6F, state $CC81. Pre Phantoon hall - default",8F:C291,07C291,DB60,,78,9,0085,07C2A3,"Eye door bottom, facing left"
+"; Room $CC6F, state $CC81. Pre Phantoon hall - default",8F:C291,07C291,DB56,,78,7,0085,07C2A9,"Eye door eye, facing left"
+; Room $CD13. Phantoon,8F:C2B3,07C2B3,C848,,1,6,0086,07C2B3,Door. Grey door facing right
+"; Room $CDF1, state $CE03. Wrecked Ship easy super missile hall - default",8F:C2BF,07C2BF,B703,,47,7,CE3D,07C2BF,Scroll PLM
+"; Room $CE8A, state $CEB6. Wrecked Ship save station - main area boss is dead",8F:C2C9,07C2C9,B76F,,7,11,0000,07C2C9,Save station
+"; Room $C98E, state $C9BA. Wrecked Ship chozo room - main area boss is dead",8F:C2D1,07C2D1,B703,,31,45,C9EC,07C2D1,Scroll PLM
+"; Room $C98E, state $C9BA. Wrecked Ship chozo room - main area boss is dead",8F:C2D1,07C2D1,B647,,65,38,8000,07C2D7,Upwards extension
+"; Room $C98E, state $C9BA. Wrecked Ship chozo room - main area boss is dead",8F:C2D1,07C2D1,B647,,65,39,8000,07C2DD,Upwards extension
+"; Room $C98E, state $C9BA. Wrecked Ship chozo room - main area boss is dead",8F:C2D1,07C2D1,B703,,65,40,C9F1,07C2E3,Scroll PLM
+"; Room $C98E, state $C9BA. Wrecked Ship chozo room - main area boss is dead",8F:C2D1,07C2D1,EF7B,,83,11,0081,07C2E9,"Reserve tank, chozo orb"
+"; Room $C98E, state $C9BA. Wrecked Ship chozo room - main area boss is dead",8F:C2D1,07C2D1,EEDB,,60,38,0082,07C2EF,Missile tank
+"; Room $C98E, state $C9BA. Wrecked Ship chozo room - main area boss is dead",8F:C2D1,07C2D1,C848,,1,22,9087,07C2F5,Door. Grey door facing right
+"; Room $CA08, state $CA34. Wrecked Ship entrance treadmill - main area boss is dead",8F:C2FD,07C2FD,C842,,110,6,0C89,07C315,Door. Grey door facing left
+"; Room $CA08, state $CA34. Wrecked Ship entrance treadmill - main area boss is dead",8F:C2FD,07C2FD,C84E,,70,14,0C8A,07C31B,Door. Grey door facing up
+"; Room $CA08, state $CA34. Wrecked Ship entrance treadmill - main area boss is dead",8F:C2FD,07C2FD,BB05,,8,8,8000,07C321,Wrecked Ship attic
+"; Room $CA52, state $CA7E. Wrecked Ship attic - main area boss is dead",8F:C2FF,07C2FF,C848,,1,6,0C88,07C2FF,Door. Grey door facing right
+"; Room $CA52, state $CA7E. Wrecked Ship attic - main area boss is dead",8F:C2FF,07C2FF,C842,,110,6,0C89,07C305,Door. Grey door facing left
+"; Room $CA52, state $CA7E. Wrecked Ship attic - main area boss is dead",8F:C2FF,07C2FF,C84E,,70,14,0C8A,07C30B,Door. Grey door facing up
+"; Room $CA52, state $CA7E. Wrecked Ship attic - main area boss is dead",8F:C2FF,07C2FF,BB05,,8,8,8000,07C311,Wrecked Ship attic
+"; Room $CAAE, state $CADA. Wrecked Ship attic missile tank room - main area boss is dead",8F:C319,07C319,EEDB,,45,8,0083,07C319,Missile tank
+"; Room $CB8B, state $CBB7. Wrecked Ship spike platform hall - main area boss is dead",8F:C321,07C321,B63B,,8,16,8000,07C339,Rightwards extension
+"; Room $CB8B, state $CBB7. Wrecked Ship spike platform hall - main area boss is dead",8F:C321,07C321,C890,,1,6,008B,07C33F,Door. Red door facing right
+"; Room $CBD5, state $CC01. Wrecked Ship east exit - main area boss is dead",8F:C323,07C323,B703,,7,16,CC24,07C323,Scroll PLM
+"; Room $CBD5, state $CC01. Wrecked Ship east exit - main area boss is dead",8F:C323,07C323,B63B,,8,16,8000,07C329,Rightwards extension
+"; Room $CBD5, state $CC01. Wrecked Ship east exit - main area boss is dead",8F:C323,07C323,C890,,1,6,008B,07C32F,Door. Red door facing right
+"; Room $CC27, state $CC53. Wrecked Ship chozo energy tank room - main area boss is dead",8F:C337,07C337,EED7,,3,6,0084,07C337,Energy tank
+"; Room $CC6F, state $CC9B. Pre Phantoon hall - main area boss is dead",8F:C33F,07C33F,B703,,64,12,CCC0,07C33F,Scroll PLM
+"; Room $CC6F, state $CC9B. Pre Phantoon hall - main area boss is dead",8F:C33F,07C33F,B703,,70,12,CCC5,07C345,Scroll PLM
+"; Room $CCCB, state $CCF7. Wrecked Ship map station - main area boss is dead",8F:C34D,07C34D,B6D3,,5,10,8000,07C34D,Map station
+"; Room $CDA8, state $CDD4. Wrecked Ship west super missile room - main area boss is dead",8F:C357,07C357,EEDF,,2,7,0085,07C357,Super missile tank
+"; Room $CDF1, state $CE1D. Wrecked Ship easy super missile hall - main area boss is dead",8F:C35F,07C35F,B703,,47,7,CE3D,07C35F,Scroll PLM
+"; Room $CDF1, state $CE1D. Wrecked Ship easy super missile hall - main area boss is dead",8F:C35F,07C35F,EEDF,,56,9,0086,07C365,Super missile tank
+"; Room $CE40, state $CE6C. Gravity suit room - main area boss is dead",8F:C36D,07C36D,EF5F,,7,9,0087,07C36D,"Gravity suit, chozo orb"
+; Room $CED2. n00b tube save station,8F:C375,07C375,B76F,,7,11,0000,07C375,Save station
+; Room $CEFB. n00b tube,8F:C37D,07C37D,B703,,3,20,CF4C,07C37D,Scroll PLM
+; Room $CEFB. n00b tube,8F:C37D,07C37D,B63B,,4,20,8000,07C383,Rightwards extension
+; Room $CEFB. n00b tube,8F:C37D,07C37D,B63B,,5,20,8000,07C389,Rightwards extension
+; Room $CEFB. n00b tube,8F:C37D,07C37D,B63B,,6,20,8000,07C38F,Rightwards extension
+; Room $CEFB. n00b tube,8F:C37D,07C37D,B703,,9,20,CF4C,07C395,Scroll PLM
+; Room $CEFB. n00b tube,8F:C37D,07C37D,B63B,,10,20,8000,07C39B,Rightwards extension
+; Room $CEFB. n00b tube,8F:C37D,07C37D,B63B,,11,20,8000,07C3A1,Rightwards extension
+; Room $CEFB. n00b tube,8F:C37D,07C37D,B63B,,12,20,8000,07C3A7,Rightwards extension
+; Room $CEFB. n00b tube,8F:C37D,07C37D,B703,,5,29,CF4F,07C3AD,Scroll PLM
+; Room $CEFB. n00b tube,8F:C37D,07C37D,B63B,,6,29,8000,07C3B3,Rightwards extension
+; Room $CEFB. n00b tube,8F:C37D,07C37D,B63B,,7,29,8000,07C3B9,Rightwards extension
+; Room $CEFB. n00b tube,8F:C37D,07C37D,B63B,,8,29,8000,07C3BF,Rightwards extension
+; Room $CEFB. n00b tube,8F:C37D,07C37D,B63B,,9,29,8000,07C3C5,Rightwards extension
+; Room $CEFB. n00b tube,8F:C37D,07C37D,B63B,,10,29,8000,07C3CB,Rightwards extension
+; Room $CEFB. n00b tube,8F:C37D,07C37D,D70C,,2,21,0080,07C3D1,n00b tube
+; Room $CEFB. n00b tube,8F:C37D,07C37D,C88A,,14,38,008C,07C3D7,Door. Red door facing left
+; Room $CF54. n00b tube west,8F:C3DF,07C3DF,B703,,5,16,CFBC,07C3F7,Scroll PLM
+; Room $CF54. n00b tube west,8F:C3DF,07C3DF,B703,,5,22,CFC1,07C3FD,Scroll PLM
+; Room $CF54. n00b tube west,8F:C3DF,07C3DF,B647,,10,3,8000,07C403,Upwards extension
+; Room $CF54. n00b tube west,8F:C3DF,07C3DF,B647,,10,4,8000,07C409,Upwards extension
+; Room $CF54. n00b tube west,8F:C3DF,07C3DF,B647,,10,5,8000,07C40F,Upwards extension
+; Room $CF54. n00b tube west,8F:C3DF,07C3DF,B647,,10,6,8000,07C415,Upwards extension
+; Room $CF54. n00b tube west,8F:C3DF,07C3DF,B647,,10,7,8000,07C41B,Upwards extension
+; Room $CF54. n00b tube west,8F:C3DF,07C3DF,B647,,10,8,8000,07C421,Upwards extension
+; Room $CF54. n00b tube west,8F:C3DF,07C3DF,B703,,10,9,CFC6,07C427,Scroll PLM
+; Room $CF54. n00b tube west,8F:C3DF,07C3DF,C82A,,22,5,8000,07C42D,Downwards closed gate
+; Room $CF54. n00b tube west,8F:C3DF,07C3DF,C836,,22,5,000A,07C433,Downwards gate shotblock
+; Room $CF80. n00b tube east,8F:C3E1,07C3E1,B703,,5,9,CFB5,07C3E1,Scroll PLM
+; Room $CF80. n00b tube east,8F:C3E1,07C3E1,B703,,5,16,CFBC,07C3E7,Scroll PLM
+; Room $CF80. n00b tube east,8F:C3E1,07C3E1,B703,,5,22,CFC1,07C3ED,Scroll PLM
+; Room $CF80. n00b tube east,8F:C3E1,07C3E1,B647,,10,3,8000,07C3F3,Upwards extension
+; Room $CF80. n00b tube east,8F:C3E1,07C3E1,B647,,10,4,8000,07C3F9,Upwards extension
+; Room $CF80. n00b tube east,8F:C3E1,07C3E1,B647,,10,5,8000,07C3FF,Upwards extension
+; Room $CF80. n00b tube east,8F:C3E1,07C3E1,B647,,10,6,8000,07C405,Upwards extension
+; Room $CF80. n00b tube east,8F:C3E1,07C3E1,B647,,10,7,8000,07C40B,Upwards extension
+; Room $CF80. n00b tube east,8F:C3E1,07C3E1,B647,,10,8,8000,07C411,Upwards extension
+; Room $CF80. n00b tube east,8F:C3E1,07C3E1,B703,,10,9,CFC6,07C417,Scroll PLM
+; Room $CF80. n00b tube east,8F:C3E1,07C3E1,C82A,,22,5,8000,07C41D,Downwards closed gate
+; Room $CF80. n00b tube east,8F:C3E1,07C3E1,C836,,22,5,000A,07C423,Downwards gate shotblock
+; Room $CFC9. Maridia mainstreet,8F:C42B,07C42B,B703,,37,41,D012,07C42B,Scroll PLM
+; Room $CFC9. Maridia mainstreet,8F:C42B,07C42B,C88A,,30,118,008D,07C431,Door. Red door facing left
+; Room $CFC9. Maridia mainstreet,8F:C42B,07C42B,EEDB,,14,53,0088,07C437,Missile tank
+; Room $CFC9. Maridia mainstreet,8F:C42B,07C42B,EEDF,,22,40,0089,07C43D,Super missile tank
+; Room $D017. Maridia space pirate room,8F:C445,07C445,B647,,31,38,8000,07C445,Upwards extension
+; Room $D017. Maridia space pirate room,8F:C445,07C445,B647,,31,39,8000,07C44B,Upwards extension
+; Room $D017. Maridia space pirate room,8F:C445,07C445,B647,,31,40,8000,07C451,Upwards extension
+; Room $D017. Maridia space pirate room,8F:C445,07C445,B703,,31,41,D052,07C457,Scroll PLM
+; Room $D017. Maridia space pirate room,8F:C445,07C445,B647,,48,38,8000,07C45D,Upwards extension
+; Room $D017. Maridia space pirate room,8F:C445,07C445,B647,,48,39,8000,07C463,Upwards extension
+; Room $D017. Maridia space pirate room,8F:C445,07C445,B647,,48,40,8000,07C469,Upwards extension
+; Room $D017. Maridia space pirate room,8F:C445,07C445,B703,,48,41,D052,07C46F,Scroll PLM
+; Room $D017. Maridia space pirate room,8F:C445,07C445,C88A,,62,38,008E,07C475,Door. Red door facing left
+; Room $D055. Tatori room,8F:C47D,07C47D,EED7,,31,10,008A,07C47D,Energy tank
+; Room $D055. Tatori room,8F:C47D,07C47D,EF83,,44,29,008B,07C483,"Missile tank, shot block"
+; Room $D08A. Maridia green gate hall,8F:C48B,07C48B,C82A,,14,7,8000,07C48B,Downwards closed gate
+; Room $D08A. Maridia green gate hall,8F:C48B,07C48B,C836,,14,7,0008,07C491,Downwards gate shotblock
+; Room $D0B9. Mt. Doom,8F:C499,07C499,B703,,30,6,D138,07C4B1,Scroll PLM
+; Room $D104. Maridia -> Red Brinstar room,8F:C49B,07C49B,B703,,32,6,D135,07C49B,Scroll PLM
+; Room $D104. Maridia -> Red Brinstar room,8F:C49B,07C49B,B703,,30,6,D138,07C4A1,Scroll PLM
+; Room $D13B. Sandy Maridia missile and super missile room,8F:C4A9,07C4A9,B703,,7,31,D16A,07C4A9,Scroll PLM
+; Room $D13B. Sandy Maridia missile and super missile room,8F:C4A9,07C4A9,EEDF,,4,38,008C,07C4AF,Super missile tank
+; Room $D13B. Sandy Maridia missile and super missile room,8F:C4A9,07C4A9,EEDB,,11,39,008D,07C4B5,Missile tank
+; Room $D16D. Sandy Maridia memu room,8F:C4BD,07C4BD,B647,,32,22,8000,07C4BD,Upwards extension
+; Room $D16D. Sandy Maridia memu room,8F:C4BD,07C4BD,B647,,32,23,8000,07C4C3,Upwards extension
+; Room $D16D. Sandy Maridia memu room,8F:C4BD,07C4BD,B647,,32,24,8000,07C4C9,Upwards extension
+; Room $D16D. Sandy Maridia memu room,8F:C4BD,07C4BD,B703,,32,25,D1A0,07C4CF,Scroll PLM
+; Room $D16D. Sandy Maridia memu room,8F:C4BD,07C4BD,B647,,15,22,8000,07C4D5,Upwards extension
+; Room $D16D. Sandy Maridia memu room,8F:C4BD,07C4BD,B647,,15,23,8000,07C4DB,Upwards extension
+; Room $D16D. Sandy Maridia memu room,8F:C4BD,07C4BD,B647,,15,24,8000,07C4E1,Upwards extension
+; Room $D16D. Sandy Maridia memu room,8F:C4BD,07C4BD,B703,,15,25,D1A0,07C4E7,Scroll PLM
+; Room $D1A3. Maridia crab shaft,8F:C4EF,07C4EF,B703,,7,45,D1D8,07C4EF,Scroll PLM
+; Room $D1A3. Maridia crab shaft,8F:C4EF,07C4EF,B63B,,8,45,8000,07C4F5,Rightwards extension
+; Room $D1A3. Maridia crab shaft,8F:C4EF,07C4EF,C872,,30,54,008F,07C4FB,Door. Green door facing left
+; Room $D1DD. Beach,8F:C503,07C503,B647,,31,38,8000,07C503,Upwards extension
+; Room $D1DD. Beach,8F:C503,07C503,B647,,31,39,8000,07C509,Upwards extension
+; Room $D1DD. Beach,8F:C503,07C503,B647,,31,40,8000,07C50F,Upwards extension
+; Room $D1DD. Beach,8F:C503,07C503,B703,,31,41,D216,07C515,Scroll PLM
+; Room $D1DD. Beach,8F:C503,07C503,B647,,29,38,8000,07C51B,Upwards extension
+; Room $D1DD. Beach,8F:C503,07C503,B647,,29,39,8000,07C521,Upwards extension
+; Room $D1DD. Beach,8F:C503,07C503,B647,,29,40,8000,07C527,Upwards extension
+; Room $D1DD. Beach,8F:C503,07C503,B703,,29,41,D219,07C52D,Scroll PLM
+; Room $D1DD. Beach,8F:C503,07C503,EEDB,,44,40,008E,07C533,Missile tank
+; Room $D21C. Maridia broken glass tube room,8F:C53B,07C53B,B703,,8,14,D24D,07C53B,Scroll PLM
+; Room $D21C. Maridia broken glass tube room,8F:C53B,07C53B,B703,,8,17,D24D,07C541,Scroll PLM
+; Room $D21C. Maridia broken glass tube room,8F:C53B,07C53B,C88A,,14,22,0090,07C547,Door. Red door facing left
+; Room $D252. Maridia broken glass tube room east,8F:C54F,07C54F,EF67,,25,38,008F,07C579,"Plasma beam, chozo orb"
+; Room $D27E. Plasma beam puyo room,8F:C551,07C551,EF67,,25,38,008F,07C569,"Plasma beam, chozo orb"
+; Room $D2AA. Plasma beam room,8F:C553,07C553,C848,,1,6,0C91,07C553,Door. Grey door facing right
+; Room $D2AA. Plasma beam room,8F:C553,07C553,EF67,,25,38,008F,07C559,"Plasma beam, chozo orb"
+; Room $D2D9. Sandy Maridia choot-puyo hall,8F:C561,07C561,C88A,,14,70,0092,07C579,Door. Red door facing left
+; Room $D30B. Maridia -> Crateria elevator,8F:C563,07C563,B70B,,6,44,8000,07C563,Elevator platform
+; Room $D30B. Maridia -> Crateria elevator,8F:C563,07C563,C88A,,14,70,0092,07C569,Door. Red door facing left
+; Room $D340. Sandy Maridia mainstreet,8F:C571,07C571,C842,,46,22,0093,07C571,Door. Grey door facing left
+; Room $D340. Sandy Maridia mainstreet,8F:C571,07C571,C87E,,6,45,0094,07C577,Door. Green door facing up
+; Room $D3B6. Maridia map station,8F:C581,07C581,B6D3,,11,10,8000,07C581,Map station
+; Room $D3DF. Sandy Maridia save station,8F:C589,07C589,B76F,,7,11,0001,07C589,Save station
+; Room $D408. Maridia elevatube,8F:C591,07C591,B63B,,4,20,8000,07C5CD,Rightwards extension
+; Room $D408. Maridia elevatube,8F:C591,07C591,B63B,,5,20,8000,07C5D3,Rightwards extension
+; Room $D408. Maridia elevatube,8F:C591,07C591,B63B,,6,20,8000,07C5D9,Rightwards extension
+; Room $D408. Maridia elevatube,8F:C591,07C591,B63B,,7,20,8000,07C5DF,Rightwards extension
+; Room $D408. Maridia elevatube,8F:C591,07C591,B63B,,8,20,8000,07C5E5,Rightwards extension
+; Room $D408. Maridia elevatube,8F:C591,07C591,B63B,,9,20,8000,07C5EB,Rightwards extension
+; Room $D408. Maridia elevatube,8F:C591,07C591,B63B,,10,20,8000,07C5F1,Rightwards extension
+; Room $D408. Maridia elevatube,8F:C591,07C591,B63B,,11,20,8000,07C5F7,Rightwards extension
+; Room $D408. Maridia elevatube,8F:C591,07C591,B63B,,12,20,8000,07C5FD,Rightwards extension
+; Room $D408. Maridia elevatube,8F:C591,07C591,C884,,6,2,0095,07C603,Door. Green door facing down
+; Room $D433. Sandy Maridia quicksand top,8F:C593,07C593,B63B,,4,20,8000,07C5BD,Rightwards extension
+; Room $D433. Sandy Maridia quicksand top,8F:C593,07C593,B63B,,5,20,8000,07C5C3,Rightwards extension
+; Room $D433. Sandy Maridia quicksand top,8F:C593,07C593,B63B,,6,20,8000,07C5C9,Rightwards extension
+; Room $D433. Sandy Maridia quicksand top,8F:C593,07C593,B63B,,7,20,8000,07C5CF,Rightwards extension
+; Room $D433. Sandy Maridia quicksand top,8F:C593,07C593,B63B,,8,20,8000,07C5D5,Rightwards extension
+; Room $D433. Sandy Maridia quicksand top,8F:C593,07C593,B63B,,9,20,8000,07C5DB,Rightwards extension
+; Room $D433. Sandy Maridia quicksand top,8F:C593,07C593,B63B,,10,20,8000,07C5E1,Rightwards extension
+; Room $D433. Sandy Maridia quicksand top,8F:C593,07C593,B63B,,11,20,8000,07C5E7,Rightwards extension
+; Room $D433. Sandy Maridia quicksand top,8F:C593,07C593,B63B,,12,20,8000,07C5ED,Rightwards extension
+; Room $D433. Sandy Maridia quicksand top,8F:C593,07C593,C884,,6,2,0095,07C5F3,Door. Green door facing down
+; Room $D461. Evir hall west,8F:C595,07C595,B63B,,4,20,8000,07C5AD,Rightwards extension
+; Room $D461. Evir hall west,8F:C595,07C595,B63B,,5,20,8000,07C5B3,Rightwards extension
+; Room $D461. Evir hall west,8F:C595,07C595,B63B,,6,20,8000,07C5B9,Rightwards extension
+; Room $D461. Evir hall west,8F:C595,07C595,B63B,,7,20,8000,07C5BF,Rightwards extension
+; Room $D461. Evir hall west,8F:C595,07C595,B63B,,8,20,8000,07C5C5,Rightwards extension
+; Room $D461. Evir hall west,8F:C595,07C595,B63B,,9,20,8000,07C5CB,Rightwards extension
+; Room $D461. Evir hall west,8F:C595,07C595,B63B,,10,20,8000,07C5D1,Rightwards extension
+; Room $D461. Evir hall west,8F:C595,07C595,B63B,,11,20,8000,07C5D7,Rightwards extension
+; Room $D461. Evir hall west,8F:C595,07C595,B63B,,12,20,8000,07C5DD,Rightwards extension
+; Room $D461. Evir hall west,8F:C595,07C595,C884,,6,2,0095,07C5E3,Door. Green door facing down
+; Room $D48E. Elevatube south,8F:C597,07C597,B703,,3,20,D4BD,07C597,Scroll PLM
+; Room $D48E. Elevatube south,8F:C597,07C597,B63B,,4,20,8000,07C59D,Rightwards extension
+; Room $D48E. Elevatube south,8F:C597,07C597,B63B,,5,20,8000,07C5A3,Rightwards extension
+; Room $D48E. Elevatube south,8F:C597,07C597,B63B,,6,20,8000,07C5A9,Rightwards extension
+; Room $D48E. Elevatube south,8F:C597,07C597,B63B,,7,20,8000,07C5AF,Rightwards extension
+; Room $D48E. Elevatube south,8F:C597,07C597,B63B,,8,20,8000,07C5B5,Rightwards extension
+; Room $D48E. Elevatube south,8F:C597,07C597,B63B,,9,20,8000,07C5BB,Rightwards extension
+; Room $D48E. Elevatube south,8F:C597,07C597,B63B,,10,20,8000,07C5C1,Rightwards extension
+; Room $D48E. Elevatube south,8F:C597,07C597,B63B,,11,20,8000,07C5C7,Rightwards extension
+; Room $D48E. Elevatube south,8F:C597,07C597,B63B,,12,20,8000,07C5CD,Rightwards extension
+; Room $D48E. Elevatube south,8F:C597,07C597,C884,,6,2,0095,07C5D3,Door. Green door facing down
+; Room $D4C2. Evir hall east,8F:C5DB,07C5DB,EF7B,,15,4,0091,07C5F3,"Reserve tank, chozo orb"
+; Room $D4EF. Snail room quicksand items west,8F:C5DD,07C5DD,EEDB,,6,4,0090,07C5DD,Missile tank
+; Room $D4EF. Snail room quicksand items west,8F:C5DD,07C5DD,EF7B,,15,4,0091,07C5E3,"Reserve tank, chozo orb"
+; Room $D51E. Snail room quicksand items east,8F:C5EB,07C5EB,EEDB,,3,7,0092,07C5EB,Missile tank
+; Room $D51E. Snail room quicksand items east,8F:C5EB,07C5EB,EEE3,,25,16,0093,07C5F1,Power bomb tank
+; Room $D54D. Snail room quicksand fall west,8F:C5F9,07C5F9,EEDB,,76,9,0094,07C623,Missile tank
+; Room $D54D. Snail room quicksand fall west,8F:C5F9,07C5F9,EEDF,,92,8,0095,07C629,Super missile tank
+; Room $D57A. Snail room quicksand fall east,8F:C5FB,07C5FB,EEDB,,76,9,0094,07C613,Missile tank
+; Room $D57A. Snail room quicksand fall east,8F:C5FB,07C5FB,EEDF,,92,8,0095,07C619,Super missile tank
+; Room $D5A7. Snail room,8F:C5FD,07C5FD,C890,,1,38,0096,07C5FD,Door. Red door facing right
+; Room $D5A7. Snail room,8F:C5FD,07C5FD,EEDB,,76,9,0094,07C603,Missile tank
+; Room $D5A7. Snail room,8F:C5FD,07C5FD,EEDF,,92,8,0095,07C609,Super missile tank
+; Room $D5EC. Sandy Maridia quicksand bottom,8F:C611,07C611,C842,,14,6,0097,07C611,Door. Grey door facing left
+; Room $D617. Mochtroid room,8F:C619,07C619,B63B,,7,50,8000,07C631,Rightwards extension
+; Room $D617. Mochtroid room,8F:C619,07C619,B63B,,8,50,8000,07C637,Rightwards extension
+; Room $D617. Mochtroid room,8F:C619,07C619,B63B,,9,50,8000,07C63D,Rightwards extension
+; Room $D617. Mochtroid room,8F:C619,07C619,B703,,13,12,D67D,07C643,Scroll PLM
+; Room $D617. Mochtroid room,8F:C619,07C619,B647,,13,11,8000,07C649,Upwards extension
+; Room $D617. Mochtroid room,8F:C619,07C619,B647,,13,10,8000,07C64F,Upwards extension
+; Room $D617. Mochtroid room,8F:C619,07C619,B647,,13,9,8000,07C655,Upwards extension
+; Room $D617. Mochtroid room,8F:C619,07C619,B647,,13,8,8000,07C65B,Upwards extension
+; Room $D617. Mochtroid room,8F:C619,07C619,B647,,13,7,8000,07C661,Upwards extension
+; Room $D617. Mochtroid room,8F:C619,07C619,B647,,13,6,8000,07C667,Upwards extension
+; Room $D617. Mochtroid room,8F:C619,07C619,B647,,13,5,8000,07C66D,Upwards extension
+; Room $D617. Mochtroid room,8F:C619,07C619,B647,,13,4,8000,07C673,Upwards extension
+; Room $D617. Mochtroid room,8F:C619,07C619,B703,,18,14,D68A,07C679,Scroll PLM
+; Room $D617. Mochtroid room,8F:C619,07C619,B647,,18,13,8000,07C67F,Upwards extension
+; Room $D617. Mochtroid room,8F:C619,07C619,B647,,18,12,8000,07C685,Upwards extension
+; Room $D617. Mochtroid room,8F:C619,07C619,B647,,18,11,8000,07C68B,Upwards extension
+; Room $D617. Mochtroid room,8F:C619,07C619,B647,,18,10,8000,07C691,Upwards extension
+; Room $D617. Mochtroid room,8F:C619,07C619,B647,,18,9,8000,07C697,Upwards extension
+; Room $D617. Mochtroid room,8F:C619,07C619,B647,,18,8,8000,07C69D,Upwards extension
+; Room $D617. Mochtroid room,8F:C619,07C619,B647,,18,7,8000,07C6A3,Upwards extension
+; Room $D617. Mochtroid room,8F:C619,07C619,B703,,21,43,D695,07C6A9,Scroll PLM
+; Room $D617. Mochtroid room,8F:C619,07C619,B63B,,22,43,8000,07C6AF,Rightwards extension
+; Room $D617. Mochtroid room,8F:C619,07C619,B63B,,23,43,8000,07C6B5,Rightwards extension
+; Room $D646. Pants room,8F:C61B,07C61B,B703,,6,50,D67D,07C61B,Scroll PLM
+; Room $D646. Pants room,8F:C61B,07C61B,B63B,,7,50,8000,07C621,Rightwards extension
+; Room $D646. Pants room,8F:C61B,07C61B,B63B,,8,50,8000,07C627,Rightwards extension
+; Room $D646. Pants room,8F:C61B,07C61B,B63B,,9,50,8000,07C62D,Rightwards extension
+; Room $D646. Pants room,8F:C61B,07C61B,B703,,13,12,D67D,07C633,Scroll PLM
+; Room $D646. Pants room,8F:C61B,07C61B,B647,,13,11,8000,07C639,Upwards extension
+; Room $D646. Pants room,8F:C61B,07C61B,B647,,13,10,8000,07C63F,Upwards extension
+; Room $D646. Pants room,8F:C61B,07C61B,B647,,13,9,8000,07C645,Upwards extension
+; Room $D646. Pants room,8F:C61B,07C61B,B647,,13,8,8000,07C64B,Upwards extension
+; Room $D646. Pants room,8F:C61B,07C61B,B647,,13,7,8000,07C651,Upwards extension
+; Room $D646. Pants room,8F:C61B,07C61B,B647,,13,6,8000,07C657,Upwards extension
+; Room $D646. Pants room,8F:C61B,07C61B,B647,,13,5,8000,07C65D,Upwards extension
+; Room $D646. Pants room,8F:C61B,07C61B,B647,,13,4,8000,07C663,Upwards extension
+; Room $D646. Pants room,8F:C61B,07C61B,B703,,18,14,D68A,07C669,Scroll PLM
+; Room $D646. Pants room,8F:C61B,07C61B,B647,,18,13,8000,07C66F,Upwards extension
+; Room $D646. Pants room,8F:C61B,07C61B,B647,,18,12,8000,07C675,Upwards extension
+; Room $D646. Pants room,8F:C61B,07C61B,B647,,18,11,8000,07C67B,Upwards extension
+; Room $D646. Pants room,8F:C61B,07C61B,B647,,18,10,8000,07C681,Upwards extension
+; Room $D646. Pants room,8F:C61B,07C61B,B647,,18,9,8000,07C687,Upwards extension
+; Room $D646. Pants room,8F:C61B,07C61B,B647,,18,8,8000,07C68D,Upwards extension
+; Room $D646. Pants room,8F:C61B,07C61B,B647,,18,7,8000,07C693,Upwards extension
+; Room $D646. Pants room,8F:C61B,07C61B,B703,,21,43,D695,07C699,Scroll PLM
+; Room $D646. Pants room,8F:C61B,07C61B,B63B,,22,43,8000,07C69F,Rightwards extension
+; Room $D646. Pants room,8F:C61B,07C61B,B63B,,23,43,8000,07C6A5,Rightwards extension
+; Room $D69A. Pants room section,8F:C6AD,07C6AD,B703,,5,34,D6C8,07C6AD,Scroll PLM
+; Room $D69A. Pants room section,8F:C6AD,07C6AD,B63B,,6,34,8000,07C6B3,Rightwards extension
+; Room $D69A. Pants room section,8F:C6AD,07C6AD,B63B,,7,34,8000,07C6B9,Rightwards extension
+; Room $D69A. Pants room section,8F:C6AD,07C6AD,B63B,,8,34,8000,07C6BF,Rightwards extension
+; Room $D69A. Pants room section,8F:C6AD,07C6AD,B63B,,9,34,8000,07C6C5,Rightwards extension
+; Room $D69A. Pants room section,8F:C6AD,07C6AD,B63B,,10,18,8000,07C6CB,Rightwards extension
+; Room $D69A. Pants room section,8F:C6AD,07C6AD,B703,,5,27,D6CB,07C6D1,Scroll PLM
+; Room $D69A. Pants room section,8F:C6AD,07C6AD,B63B,,6,27,8000,07C6D7,Rightwards extension
+; Room $D69A. Pants room section,8F:C6AD,07C6AD,B63B,,7,27,8000,07C6DD,Rightwards extension
+; Room $D6D0. Spring ball room,8F:C6E5,07C6E5,EF57,,24,22,0096,07C6E5,"Spring ball, chozo orb"
+; Room $D6FD. Maridia speed blockade quicksand bottom,8F:C6ED,07C6ED,C872,,78,38,0099,07C705,Door. Green door facing left
+; Room $D6FD. Maridia speed blockade quicksand bottom,8F:C6ED,07C6ED,C872,,110,22,009A,07C70B,Door. Green door facing left
+; Room $D72A. Maridia grapple room,8F:C6EF,07C6EF,C88A,,110,6,0098,07C6EF,Door. Red door facing left
+; Room $D72A. Maridia grapple room,8F:C6EF,07C6EF,C872,,78,38,0099,07C6F5,Door. Green door facing left
+; Room $D72A. Maridia grapple room,8F:C6EF,07C6EF,C872,,110,22,009A,07C6FB,Door. Green door facing left
+; Room $D765. Snail room save station,8F:C703,07C703,B76F,,5,11,0002,07C703,Save station
+; Room $D78F. Pre Draygon room,8F:C70B,07C70B,B703,,4,14,D7DF,07C70B,Scroll PLM
+; Room $D78F. Pre Draygon room,8F:C70B,07C70B,B63B,,5,14,8000,07C711,Rightwards extension
+; Room $D78F. Pre Draygon room,8F:C70B,07C70B,B63B,,6,14,8000,07C717,Rightwards extension
+; Room $D78F. Pre Draygon room,8F:C70B,07C70B,B63B,,7,14,8000,07C71D,Rightwards extension
+; Room $D78F. Pre Draygon room,8F:C70B,07C70B,B63B,,8,14,8000,07C723,Rightwards extension
+; Room $D78F. Pre Draygon room,8F:C70B,07C70B,B63B,,9,14,8000,07C729,Rightwards extension
+; Room $D78F. Pre Draygon room,8F:C70B,07C70B,B63B,,10,14,8000,07C72F,Rightwards extension
+; Room $D78F. Pre Draygon room,8F:C70B,07C70B,B63B,,11,14,8000,07C735,Rightwards extension
+; Room $D78F. Pre Draygon room,8F:C70B,07C70B,DB4C,,1,38,009B,07C73B,"Door. Eye door, facing right"
+; Room $D78F. Pre Draygon room,8F:C70B,07C70B,DB52,,1,41,009B,07C741,"Eye door bottom, facing right"
+; Room $D78F. Pre Draygon room,8F:C70B,07C70B,DB48,,1,39,009B,07C747,"Eye door eye, facing right"
+; Room $D78F. Pre Draygon room,8F:C70B,07C70B,EF83,,28,6,0097,07C74D,"Missile tank, shot block"
+; Room $D7E4. Maridia speed blockade hall,8F:C755,07C755,EED7,,50,5,0098,07C755,Energy tank
+; Room $D81A. Draygon save station,8F:C75D,07C75D,B76F,,7,11,0003,07C75D,Save station
+; Room $D845. Maridia missile station,8F:C765,07C765,B6EB,,8,10,0099,07C765,Missile station
+; Room $D86E. Sandy Maridia quicksand fall,8F:C76D,07C76D,B703,,11,41,D956,07C7A9,Scroll PLM
+; Room $D86E. Sandy Maridia quicksand fall,8F:C76D,07C76D,B647,,11,40,8000,07C7AF,Upwards extension
+; Room $D86E. Sandy Maridia quicksand fall,8F:C76D,07C76D,B647,,11,39,8000,07C7B5,Upwards extension
+; Room $D86E. Sandy Maridia quicksand fall,8F:C76D,07C76D,B647,,11,38,8000,07C7BB,Upwards extension
+; Room $D86E. Sandy Maridia quicksand fall,8F:C76D,07C76D,B703,,14,41,D95B,07C7C1,Scroll PLM
+; Room $D86E. Sandy Maridia quicksand fall,8F:C76D,07C76D,C848,,1,22,009C,07C7C7,Door. Grey door facing right
+; Room $D898. Maridia speed blockade quicksand fall,8F:C76F,07C76F,B703,,11,41,D956,07C799,Scroll PLM
+; Room $D898. Maridia speed blockade quicksand fall,8F:C76F,07C76F,B647,,11,40,8000,07C79F,Upwards extension
+; Room $D898. Maridia speed blockade quicksand fall,8F:C76F,07C76F,B647,,11,39,8000,07C7A5,Upwards extension
+; Room $D898. Maridia speed blockade quicksand fall,8F:C76F,07C76F,B647,,11,38,8000,07C7AB,Upwards extension
+; Room $D898. Maridia speed blockade quicksand fall,8F:C76F,07C76F,B703,,14,41,D95B,07C7B1,Scroll PLM
+; Room $D898. Maridia speed blockade quicksand fall,8F:C76F,07C76F,C848,,1,22,009C,07C7B7,Door. Grey door facing right
+; Room $D8C5. Shaktool,8F:C771,07C771,B703,,11,41,D956,07C789,Scroll PLM
+; Room $D8C5. Shaktool,8F:C771,07C771,B647,,11,40,8000,07C78F,Upwards extension
+; Room $D8C5. Shaktool,8F:C771,07C771,B647,,11,39,8000,07C795,Upwards extension
+; Room $D8C5. Shaktool,8F:C771,07C771,B647,,11,38,8000,07C79B,Upwards extension
+; Room $D8C5. Shaktool,8F:C771,07C771,B703,,14,41,D95B,07C7A1,Scroll PLM
+; Room $D8C5. Shaktool,8F:C771,07C771,C848,,1,22,009C,07C7A7,Door. Grey door facing right
+; Room $D913. Maridia grapple wall shaft,8F:C773,07C773,B703,,16,41,D951,07C773,Scroll PLM
+; Room $D913. Maridia grapple wall shaft,8F:C773,07C773,B703,,11,41,D956,07C779,Scroll PLM
+; Room $D913. Maridia grapple wall shaft,8F:C773,07C773,B647,,11,40,8000,07C77F,Upwards extension
+; Room $D913. Maridia grapple wall shaft,8F:C773,07C773,B647,,11,39,8000,07C785,Upwards extension
+; Room $D913. Maridia grapple wall shaft,8F:C773,07C773,B647,,11,38,8000,07C78B,Upwards extension
+; Room $D913. Maridia grapple wall shaft,8F:C773,07C773,B703,,14,41,D95B,07C791,Scroll PLM
+; Room $D913. Maridia grapple wall shaft,8F:C773,07C773,C848,,1,22,009C,07C797,Door. Grey door facing right
+; Room $D95E. Botwoon,8F:C79F,07C79F,C848,,1,6,049D,07C79F,Door. Grey door facing right
+; Room $D9AA. Space jump room,8F:C7A7,07C7A7,EF6F,,4,8,009A,07C7A7,"Space jump, chozo orb"
+; Room $D9D4. Maridia energy station,8F:C7AF,07C7AF,B6DF,,8,10,009B,07C7AF,Energy station
+; Room $D9FE. Maridia cacatac room west,8F:C7B7,07C7B7,C848,,1,22,009F,07C7E1,Door. Grey door facing right
+; Room $D9FE. Maridia cacatac room west,8F:C7B7,07C7B7,DF65,,2,11,8802,07C7E7,"Draygon cannon, facing right"
+; Room $D9FE. Maridia cacatac room west,8F:C7B7,07C7B7,DF59,,2,18,8804,07C7ED,"Draygon cannon, with shield, facing right"
+; Room $D9FE. Maridia cacatac room west,8F:C7B7,07C7B7,DF71,,29,15,8806,07C7F3,"Draygon cannon, with shield, facing left"
+; Room $D9FE. Maridia cacatac room west,8F:C7B7,07C7B7,DF71,,29,21,8808,07C7F9,"Draygon cannon, with shield, facing left"
+; Room $DA2B. Maridia cacatac room east,8F:C7B9,07C7B9,C848,,1,22,009F,07C7D1,Door. Grey door facing right
+; Room $DA2B. Maridia cacatac room east,8F:C7B9,07C7B9,DF65,,2,11,8802,07C7D7,"Draygon cannon, facing right"
+; Room $DA2B. Maridia cacatac room east,8F:C7B9,07C7B9,DF59,,2,18,8804,07C7DD,"Draygon cannon, with shield, facing right"
+; Room $DA2B. Maridia cacatac room east,8F:C7B9,07C7B9,DF71,,29,15,8806,07C7E3,"Draygon cannon, with shield, facing left"
+; Room $DA2B. Maridia cacatac room east,8F:C7B9,07C7B9,DF71,,29,21,8808,07C7E9,"Draygon cannon, with shield, facing left"
+; Room $DA60. Draygon,8F:C7BB,07C7BB,C842,,30,6,009E,07C7BB,Door. Grey door facing left
+; Room $DA60. Draygon,8F:C7BB,07C7BB,C848,,1,22,009F,07C7C1,Door. Grey door facing right
+; Room $DA60. Draygon,8F:C7BB,07C7BB,DF65,,2,11,8802,07C7C7,"Draygon cannon, facing right"
+; Room $DA60. Draygon,8F:C7BB,07C7BB,DF59,,2,18,8804,07C7CD,"Draygon cannon, with shield, facing right"
+; Room $DA60. Draygon,8F:C7BB,07C7BB,DF71,,29,15,8806,07C7D3,"Draygon cannon, with shield, facing left"
+; Room $DA60. Draygon,8F:C7BB,07C7BB,DF71,,29,21,8808,07C7D9,"Draygon cannon, with shield, facing left"
+; Room $DAAE. Tourian -> Crateria elevator,8F:C7E1,07C7E1,B70B,,6,44,8000,07C7E1,Elevator platform
+; Room $DAE1. Metroid room 1,8F:C7E9,07C7E9,DB44,,8,8,0012,07C7E9,Sets Metroids cleared states when required
+; Room $DAE1. Metroid room 1,8F:C7E9,07C7E9,C848,,1,6,0CA0,07C7EF,Door. Grey door facing right
+; Room $DB31. Metroid room 2,8F:C7F7,07C7F7,DB44,,8,8,0014,07C7F7,Sets Metroids cleared states when required
+; Room $DB31. Metroid room 2,8F:C7F7,07C7F7,C842,,14,22,0CA1,07C7FD,Door. Grey door facing left
+; Room $DB7D. Metroid room 3,8F:C805,07C805,DB44,,8,8,0016,07C805,Sets Metroids cleared states when required
+; Room $DB7D. Metroid room 3,8F:C805,07C805,C842,,94,6,0CA2,07C80B,Door. Grey door facing left
+; Room $DBCD. Metroid room 4,8F:C813,07C813,DB44,,8,8,0018,07C813,Sets Metroids cleared states when required
+; Room $DBCD. Metroid room 4,8F:C813,07C813,C84E,,6,30,0CA3,07C819,Door. Grey door facing up
+; Room $DC19. Tourian super-sidehopper room,8F:C821,07C821,C848,,1,6,0CA5,07C839,Door. Grey door facing right
+; Room $DC65. Torizo corpse room,8F:C823,07C823,C842,,30,6,90A4,07C823,Door. Grey door facing left
+; Room $DC65. Torizo corpse room,8F:C823,07C823,C848,,1,6,0CA5,07C829,Door. Grey door facing right
+; Room $DCB1. Shitroid room,8F:C831,07C831,C842,,62,6,90A6,07C831,Door. Grey door facing left
+; Room $DCFF. Post Shitroid room,8F:C839,07C839,C88A,,14,22,00A7,07C839,Door. Red door facing left
+; Room $DD2E. Tourian refill station,8F:C841,07C841,B6EB,,8,10,009C,07C841,Missile station
+; Room $DD2E. Tourian refill station,8F:C841,07C841,B6DF,,6,10,009D,07C847,Energy station
+; Room $DD58. Mother Brain,8F:C84F,07C84F,D6DE,,9,5,8000,07C84F,Mother Brain's glass
+; Room $DDC4. Tourian eye-door room,8F:C857,07C857,DB5A,,62,6,00A8,07C857,"Door. Eye door, facing left"
+; Room $DDC4. Tourian eye-door room,8F:C857,07C857,DB60,,62,9,00A8,07C85D,"Eye door bottom, facing left"
+; Room $DDC4. Tourian eye-door room,8F:C857,07C857,DB56,,62,7,00A8,07C863,"Eye door eye, facing left"
+; Room $DDF3. Pre Mother Brain shaft,8F:C86B,07C86B,C890,,1,38,00A9,07C86B,Door. Red door facing right
+; Room $DE23. Mother Brain save station,8F:C873,07C873,B76F,,5,11,0000,07C873,Save station
+; Room $DE4D. Escape room 1,8F:C87B,07C87B,DB44,,8,8,0000,07C87B,Sets Metroids cleared states when required
+; Room $DE4D. Escape room 1,8F:C87B,07C87B,C8CA,,31,6,8000,07C881,Door. Gate that closes during escape in room after Mother Brain
+; Room $DE7A. Escape room 2,8F:C889,07C889,DB44,,8,8,0002,07C889,Sets Metroids cleared states when required
+; Room $DE7A. Escape room 2,8F:C889,07C889,C854,,6,3,90AA,07C88F,Door. Grey door facing down
+; Room $DEA7. Escape room 3,8F:C897,07C897,DB44,,8,8,0004,07C897,Sets Metroids cleared states when required
+; Room $DEA7. Escape room 3,8F:C897,07C897,C848,,1,22,90AB,07C89D,Door. Grey door facing right
+; Room $DEDE. Escape room 4,8F:C8A5,07C8A5,DB44,,8,8,0006,07C8A5,Sets Metroids cleared states when required
+; Room $DEDE. Escape room 4,8F:C8A5,07C8A5,C848,,1,54,90AC,07C8AB,Door. Grey door facing right
+; Room $DF1B. Tourian elevator save station,8F:C8B3,07C8B3,B76F,,7,11,0001,07C8B3,Save station
