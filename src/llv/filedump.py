@@ -12,11 +12,10 @@ from PySide6.QtWidgets import (
     QMessageBox,
     QApplication,
 )
-from PySide6.QtGui import QFontDatabase, QTextCursor
+from PySide6.QtGui import QFontDatabase, QTextCursor, QTextCharFormat, QColor
 
 from llv_utility import dump_line
 from llv_utility import hex_to_dec, dec_to_hex
-
 
 class LoaderThread(QtCore.QThread):
     """Background loader that streams the file incrementally so the UI never blocks."""
@@ -238,14 +237,28 @@ class FileDump(QtWidgets.QWidget):
         self._goto_offset(idx)
 
     # ------------------------------------------------------------------ Navigation / status helpers
-    def _goto_offset(self, offset: int) -> None:
-        line = offset // self.bytes_per_line
+    def _goto_offset(self, line_offset: int, byte_offset : int | None = None) -> None:
+        line = line_offset // self.bytes_per_line
+        byte_in_line = (line_offset %  self.bytes_per_line)
+        test = self._offset_to_byte(byte_in_line)
         cursor = self.view.textCursor()
         cursor.movePosition(QTextCursor.Start)
-        cursor.movePosition(QTextCursor.Down, QTextCursor.MoveAnchor, line)
+        cursor.movePosition(QTextCursor.Down, QTextCursor.MoveMode.MoveAnchor, line)
+        print(f"ByteOffset: {byte_offset}\nLineOffset: {line_offset}\nLine: {line}")
+        cursor.movePosition(QTextCursor.Right,QTextCursor.MoveAnchor, test)
         self.view.setTextCursor(cursor)
         self.view.setFocus()
-        self.status.setText(f"Offset: 0x{offset:08X} (line {line})")
+        self.status.setText(f"Offset: 0x{line_offset:08X} (line {line})")
+        
+        tcf = QTextCharFormat()
+        tcf.setForeground(QtGui.QColor("red"))
+        cursor.movePosition(QTextCursor.Right, QTextCursor.KeepAnchor, 2)
+
+        selection = QtWidgets.QTextEdit.ExtraSelection()
+        
+        selection.cursor = cursor
+        selection.format = tcf        
+        self.view.setExtraSelections([selection])
 
     def _update_status_offset(self) -> None:
         off = self._offset_for_cursor(self.view.textCursor())
@@ -261,6 +274,16 @@ class FileDump(QtWidgets.QWidget):
         byte_idx = (col - 10) // 3  # 'XX ' pattern → 3 chars per byte
         off = line_idx * self.bytes_per_line + byte_idx
         return off if off < len(self._raw) else None
+    
+    def _offset_to_byte(self, byte: int) -> int | None:
+        if byte == 0:
+            return 10
+        base_offset = 10
+        col_off = 0
+        if (byte > 8):
+            col_off = 1
+        byte_offset = (base_offset + byte * 3) + col_off
+        return byte_offset
 
     # ------------------------------------------------------------------ Save logic
     def _mark_modified(self) -> None:
