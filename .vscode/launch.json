@@ -34,5 +34,20 @@
             "program": "${workspaceFolder}/src/llv/filedump.py",
             "console": "integratedTerminal"
         },
+                {
+            "name": "Run Chat",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/chat/chatmain.py",
+            "console": "integratedTerminal",
+            "args": []
+        },
+        {
+            "name": "Debug Chat",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/chat/chatmain.py",
+            "console": "integratedTerminal"
+        },
     ]
 }
